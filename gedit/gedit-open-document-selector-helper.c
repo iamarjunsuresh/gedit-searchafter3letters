@@ -26,23 +26,23 @@ gedit_open_document_selector_debug_print_list (const gchar *title,
 {
 	FileItem *item;
 	GList *l;
-	glong time_sec;
-	glong time_usec;
+	char *accessed = NULL;
 
 	g_print ("%s\n", title);
 
 	for (l = fileitem_list; l != NULL; l = l->next)
 	{
 		item = (FileItem *)l->data;
-		time_sec = item->access_time.tv_sec;
-		time_usec = item->access_time.tv_usec;
 
-		g_print ("%ld:%ld uri:%s (%s %s)\n",
-		         time_sec,
-		         time_usec,
+		accessed = g_date_time_format_iso8601 (item->accessed);
+
+		g_print ("%s uri:%s (%s %s)\n",
+		         accessed,
 		         item->uri,
 		         item->name,
 		         item->path);
+		
+		g_clear_pointer (&accessed, g_free);
 	}
 }
 
@@ -62,6 +62,7 @@ gedit_open_document_selector_free_fileitem_item (FileItem *item)
 	g_free (item->uri);
 	g_free (item->name);
 	g_free (item->path);
+	g_clear_pointer (&item->accessed, g_date_time_unref);
 
 	g_slice_free (FileItem, item);
 }
@@ -76,7 +77,7 @@ gedit_open_document_selector_copy_fileitem_item (FileItem *item)
 	new_item->uri = g_strdup (item->uri);
 	new_item->name = g_strdup (item->name);
 	new_item->path = g_strdup (item->path);
-	new_item->access_time = item->access_time;
+	new_item->accessed = g_date_time_ref (item->accessed);
 
 	return new_item;
 }

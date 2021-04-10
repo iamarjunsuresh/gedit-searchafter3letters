@@ -83,6 +83,28 @@ G_DEFINE_TYPE (GeditOpenDocumentSelectorStore, gedit_open_document_selector_stor
 G_DEFINE_QUARK (gedit-open-document-selector-store-error-quark,
                 gedit_open_document_selector_store_error)
 
+
+static GDateTime *
+_get_date_time (GFileInfo *info)
+{
+  guint32 time;
+  guint32 usecs;
+  GDateTime *dt = NULL, *dt2 = NULL;
+
+  g_return_val_if_fail (G_IS_FILE_INFO (info), NULL);
+
+  time = g_file_info_get_attribute_uint64 (info, G_FILE_ATTRIBUTE_TIME_ACCESS);
+  dt = g_date_time_new_from_unix_utc (time);
+
+  usecs = g_file_info_get_attribute_uint32 (info, G_FILE_ATTRIBUTE_TIME_ACCESS_USEC);
+  dt2 = g_date_time_add_seconds (dt, usecs / (gdouble) G_USEC_PER_SEC);
+
+  g_date_time_unref (dt);
+
+  return g_steal_pointer (&dt2);
+}
+
+
 static GList *
 get_current_docs_list (GeditOpenDocumentSelectorStore *selector_store G_GNUC_UNUSED,
                        GeditOpenDocumentSelector      *selector)
@@ -119,8 +141,7 @@ get_current_docs_list (GeditOpenDocumentSelectorStore *selector_store G_GNUC_UNU
 
 		item = gedit_open_document_selector_create_fileitem_item ();
 
-		item->access_time.tv_sec = g_file_info_get_attribute_uint64 (info, "time::access");
-		item->access_time.tv_usec = g_file_info_get_attribute_uint32 (info, "time::access-usec");
+		item->accessed = _get_date_time (info);
 		item->uri = g_file_get_uri (file);
 
 		file_items_list = g_list_prepend (file_items_list, item);
@@ -216,8 +237,7 @@ get_children_from_dir (GeditOpenDocumentSelectorStore *selector_store G_GNUC_UNU
 			item = gedit_open_document_selector_create_fileitem_item ();
 			item->uri = g_file_get_uri (file);
 
-			item->access_time.tv_sec = g_file_info_get_attribute_uint64 (info, "time::access");
-			item->access_time.tv_usec = g_file_info_get_attribute_uint32 (info, "time::access-usec");
+			item->accessed = _get_date_time (info);
 
 			file_items_list = g_list_prepend (file_items_list, item);
 			g_object_unref (file);
@@ -480,8 +500,7 @@ convert_recent_item_list_to_fileitem_list (GList *uri_list)
 		item = gedit_open_document_selector_create_fileitem_item ();
 		item->uri = uri;
 
-		item->access_time.tv_sec = gtk_recent_info_get_visited (l->data);
-		item->access_time.tv_usec = 0;
+		item->accessed = g_date_time_new_from_unix_local (gtk_recent_info_get_visited (l->data));
 
 		fileitem_list = g_list_prepend (fileitem_list, item);
 	}

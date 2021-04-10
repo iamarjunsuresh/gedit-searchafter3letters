@@ -310,19 +310,9 @@ sort_items_by_mru (FileItem *a,
                    FileItem *b,
                    gpointer  unused G_GNUC_UNUSED)
 {
-	glong diff;
-
 	g_assert (a != NULL && b != NULL);
-	diff = b->access_time.tv_sec - a->access_time.tv_sec;
 
-	if (diff == 0)
-	{
-		return (b->access_time.tv_usec - a->access_time.tv_usec);
-	}
-	else
-	{
-		return diff;
-	}
+	return g_date_time_compare (b, a);
 }
 
 static GList *

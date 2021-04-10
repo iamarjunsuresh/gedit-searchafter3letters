@@ -32,7 +32,7 @@ typedef struct
 	gchar *uri;
 	gchar *name;
 	gchar *path;
-	GTimeVal access_time;
+	GDateTime *accessed;
 } FileItem;
 
 typedef enum
