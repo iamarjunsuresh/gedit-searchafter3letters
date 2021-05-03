@@ -93,7 +93,7 @@ msgid ""
 "<guiseq><gui style=\"menuitem\">Preferences</gui><gui>Font &amp; Colors</"
 "gui></guiseq>."
 msgstr ""
-"Premeu el botó de menú a l’extrem superior dret de la finestra i seleccioneu "
+"Premeu el botó de menú a l'extrem superior dret de la finestra i seleccioneu "
 "<guiseq><gui style=\"menuitem\">Preferències</gui><gui>Tipus de lletres i "
 "colors</gui></guiseq>."
 
@@ -321,7 +321,7 @@ msgid ""
 "As an alternative to the <cmd>sudo</cmd> command, you may obtain "
 "administrative privileges by entering:"
 msgstr ""
-"Com a alternativa a la comanda <cmd>sudo</cmd>, podeu adquirir privilegis "
+"Com a alternativa a l'ordre <cmd>sudo</cmd>, podeu adquirir privilegis "
 "d'administrador introduint:"
 
 #. (itstool) path: page/code
@@ -335,7 +335,7 @@ msgstr "su -"
 msgid ""
 "You would then launch <app>gedit</app> using the <cmd>gedit</cmd> command."
 msgstr ""
-"Aleshores podreu iniciar el <app>gedit</app> utilitzant la comanda "
+"Aleshores podreu iniciar el <app>gedit</app> utilitzant l'ordre "
 "<cmd>gedit</cmd>."
 
 #. (itstool) path: note/p
@@ -637,7 +637,7 @@ msgid ""
 "need to know the IP Address or URL of the server, and may need to know what "
 "kind of server it is (e.g., HTTP, FTP, etc.)."
 msgstr ""
-"Abans d'obrir un fitxer d’un servidor des del <app>gedit</app>, necessiteu "
+"Abans d'obrir un fitxer d'un servidor des del <app>gedit</app>, necessiteu "
 "conèixer certa informació tècnica del servidor. Per exemple, n'haureu de "
 "saber l'adreça IP o l'URL, i potser necessiteu saber quin tipus de servidor "
 "és (per exemple, HTTP, FTP, etc.)."
@@ -887,12 +887,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/gedit-plugins-change-case.page:35
 msgid "Choose your desired text-formatting option."
-msgstr "Trieu l’opció desitjada pel format del text."
+msgstr "Trieu l'opció desitjada pel format del text."
 
 #. (itstool) path: page/p
 #: C/gedit-plugins-change-case.page:38
 msgid "The updates to the text formatting will take place immediately."
-msgstr "L’actualització de format del text es realitzarà immediatament."
+msgstr "L'actualització de format del text es realitzarà immediatament."
 
 #. (itstool) path: note/p
 #: C/gedit-plugins-change-case.page:41
@@ -1025,7 +1025,7 @@ msgid ""
 "needs. The configuration options are available by selecting "
 "<guiseq><gui>Tools</gui><gui>Manage External Tools</gui></guiseq>."
 msgstr ""
-"Un cop activat el connector, l'haureu de configurar perquè s’adapti a les "
+"Un cop activat el connector, l'haureu de configurar perquè s'adapti a les "
 "vostres necessitats. Les opcions de configuració estan disponibles a "
 "<guiseq><gui>Eines</gui><gui>Gestiona les eines externes</gui></guiseq>."
 
@@ -1352,8 +1352,8 @@ msgid ""
 "modelines, and <app>gedit</app> supports the following <app>Emacs</app> "
 "modeline options:"
 msgstr ""
-"S’analitzen les dues primeres línies del document per a trobar els modes de "
-"línia d’<app>Emacs</app>. El <app>gedit</app> suporta les següents opcions "
+"S'analitzen les dues primeres línies del document per a trobar els modes de "
+"línia d'<app>Emacs</app>. El <app>gedit</app> suporta les següents opcions "
 "de modes de línia d'<app>Emacs</app>:"
 
 #. (itstool) path: item/p
@@ -1383,7 +1383,7 @@ msgid ""
 "\"https://www.gnu.org/software/emacs/manual/emacs.html\">GNU Emacs Manual</"
 "link>."
 msgstr ""
-"Per a més informació sobre els modes de línia d’<app>Emacs</app>, visiteu el "
+"Per a més informació sobre els modes de línia d'<app>Emacs</app>, visiteu el "
 "<link href=\"https://www.gnu.org/software/emacs/manual/emacs.html\">Manual "
 "del GNU Emacs </link>."
 
@@ -1399,7 +1399,7 @@ msgid ""
 "modelines, and <app>gedit</app> supports the following <app>Kate</app> "
 "modeline options:"
 msgstr ""
-"S’analitzen les deu primeres i les deu darreres línies del document pels "
+"S'analitzen les deu primeres i les deu darreres línies del document pels "
 "modes de línia del <app>Kate</app>. El <app>gedit</app> suporta les següents "
 "opcions de modes de línia del <app>Kate</app>:"
 
@@ -1449,7 +1449,7 @@ msgid ""
 "modelines, and <app>gedit</app> supports the following <app>Vim</app> "
 "modeline options:"
 msgstr ""
-"S’analitzen les tres primeres i les tres darreres línies del document pels "
+"S'analitzen les tres primeres i les tres darreres línies del document pels "
 "modes de línia del <app>Vim</app>. El <app>gedit</app> suporta les següents "
 "opcions de modes de línia del <app>Vim</app>:"
 
@@ -1692,9 +1692,9 @@ msgid ""
 msgstr ""
 "El connector <app>Fragments</app> proporciona una manera pràctica d'inserir "
 "parts repetitives de codi als vostres fitxers. Per exemple, un fragment "
-"d'HTML per a l’etiqueta <code>&lt;img&gt;</code> inserirà les seves porcions "
+"d'HTML per a l'etiqueta <code>&lt;img&gt;</code> inserirà les seves porcions "
 "d'obertura i tancament, així com llocs fixos on poder introduir els atributs "
-"de la imatge. D’aquesta manera l'escriptura de codi és més fàcil i ràpida."
+"de la imatge. D'aquesta manera l'escriptura de codi és més fàcil i ràpida."
 
 #. (itstool) path: section/title
 #: C/gedit-plugins-snippets.page:29
@@ -1755,7 +1755,7 @@ msgstr ""
 "a la part inferior de la finestra del <app>gedit</app> mostrarà la "
 "configuració actual d'idioma. Aquesta configuració és la que permet que el "
 "gedit insereixi els fragments adequats. El <app>gedit</app> normalment "
-"detecta l'idioma o la sintaxi del fitxer utilitzat, però de vegades l’haureu "
+"detecta l'idioma o la sintaxi del fitxer utilitzat, però de vegades l'haureu "
 "de configurar."
 
 #. (itstool) path: figure/desc
@@ -1912,7 +1912,7 @@ msgid ""
 "using this term to insert your snippet."
 msgstr ""
 "A la secció <gui style=\"group\">Activació</gui>, heu d'introduir un terme a "
-"l’àrea de text <gui style=\"input\">Activador:</gui>. Haureu d’utilitzar "
+"l'àrea de text <gui style=\"input\">Activador:</gui>. Haureu d'utilitzar "
 "aquest terme per a inserir el vostre fragment."
 
 #. (itstool) path: note/p
@@ -2100,7 +2100,7 @@ msgid ""
 "first character that should be used for sorting in the <gui>Start at</gui> "
 "column spin box."
 msgstr ""
-"Per a fer que l’ordenació ignori els caràcters a l'inici de les línies, "
+"Per a fer que l'ordenació ignori els caràcters a l'inici de les línies, "
 "configureu el primer caràcter que s'utilitzarà per a ordenar al control "
 "incremental <gui>Inicia a</gui>."
 
@@ -2113,7 +2113,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/gedit-printing-order.page:7
 msgid "Set the pages to print in a certain order."
-msgstr "Establiu l’ordre d’impressió de les pàgines."
+msgstr "Establiu l'ordre d'impressió de les pàgines."
 
 #. (itstool) path: credit/name
 #: C/gedit-printing-order.page:11 C/gedit-printing-select.page:10
@@ -2123,7 +2123,7 @@ msgstr "Phil Bull"
 #. (itstool) path: page/title
 #: C/gedit-printing-order.page:21
 msgid "Getting Copies To Print In The Correct Order"
-msgstr "Imprimir les còpies en l’ordre correcte"
+msgstr "Imprimir les còpies en l'ordre correcte"
 
 #. (itstool) path: section/title
 #: C/gedit-printing-order.page:24
@@ -3004,7 +3004,7 @@ msgid ""
 "from the following corrective actions:"
 msgstr ""
 "Podeu triar la substitució correcta per als errors ortogràfics des del "
-"diàleg «Comprova l’ortografia». L'error ortogràfic que marca el corrector es "
+"diàleg «Comprova l'ortografia». L'error ortogràfic que marca el corrector es "
 "mostra en negreta al costat de <gui>Paraula mal escrita</gui>. Podeu triar "
 "entre les següents accions correctives:"
 
@@ -3125,7 +3125,7 @@ msgid ""
 "dictionary back-end that you want."
 msgstr ""
 "Si l'idioma que voleu utilitzar no està disponible al <app>gedit</app>, "
-"utilitzeu l’instal·lador de programari o el gestor de paquets del vostre "
+"utilitzeu l'instal·lador de programari o el gestor de paquets del vostre "
 "ordinador per a instal·lar el diccionari que vulgueu."
 
 #. (itstool) path: info/desc
@@ -3152,8 +3152,8 @@ msgid ""
 "text."
 msgstr ""
 "El <app>gedit</app> proporciona ressaltat de la sintaxi per a un ampli rang "
-"de llenguatges d’etiquetes, de programació i científics. Si el <app>gedit</"
-"app> reconeix la sintaxi usada en obrir un fitxer, ressaltarà automàticament "
+"de llenguatges d'etiquetes, de programació i científics. Si el <app>gedit</"
+"app> reconeix la sintaxi quan obriu un fitxer, ressaltarà automàticament "
 "el text."
 
 #. (itstool) path: section/p
@@ -3395,7 +3395,7 @@ msgid ""
 "This will reveal each of the open <app>gedit</app> windows. You can then "
 "release the tab on the desired <app>gedit</app> window."
 msgstr ""
-"Potser us sigui més fàcil moure una pestanya d’una finestra a una altra "
+"Potser us sigui més fàcil moure una pestanya d'una finestra a una altra "
 "arrossegant-la a cantonada activa <gui>Activitats</gui> del <gui>Shell de "
 "GNOME</gui>. Així es mostrarà cadascuna de les finestres obertes del "
 "<app>gedit</app> i podreu deixar anar la pestanya a la finestra del "
@@ -3530,7 +3530,7 @@ msgid ""
 "Other help topics are grouped together into sections below. Enjoy using "
 "<app>gedit</app>!"
 msgstr ""
-"Els altres temes d’ajuda s'agrupen en les seccions següents. Gaudiu "
+"Els altres temes d'ajuda s'agrupen en les seccions següents. Gaudiu "
 "utilitzant el <app>gedit</app>!"
 
 #. (itstool) path: section/title
