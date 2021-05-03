@@ -50,9 +50,11 @@ pygobject_req = '>= 3.0.0'
 
 gio_dep = dependency('gio-2.0', version: glib_req)
 libxml_dep = dependency('libxml-2.0', version: libxml_req)
-gspell_dep = dependency('gspell-1', version: gspell_req)
+gspell_dep = dependency('gspell-1', version: gspell_req, required: get_option('spell'))
 
-python3 = python.find_installation('python3')
+if get_option('python')
+  python3 = python.find_installation('python3')
+endif
 
 libgedit_public_deps = [
   gio_dep,
@@ -114,3 +116,4 @@ summary('Prefix', get_option('prefix'))
 summary('API documentation', get_option('gtk_doc'))
 summary('User documentation', get_option('user_documentation'))
 summary('Require all tests', get_option('require_all_tests'))
+summary('Spell checker plugin', get_option('spell').enabled().to_string())

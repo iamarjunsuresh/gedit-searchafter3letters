@@ -214,10 +214,12 @@ libgedit_gir = gnome.generate_gir(
   install_dir_typelib: get_option('libdir') / 'gedit/girepository-1.0',
 )
 
-python3.install_sources(
-  'Gedit.py',
-  subdir: 'gi/overrides',
-)
+if get_option('python')
+  python3.install_sources(
+    'Gedit.py',
+    subdir: 'gi/overrides',
+  )
+endif
 
 # Vala API
 libgedit_vapi = gnome.generate_vapi(
