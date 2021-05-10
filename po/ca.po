@@ -2196,7 +2196,7 @@ msgstr "La visualització prèvia de la pàgina del document a imprimir"
 
 #: gedit/resources/ui/gedit-replace-dialog.ui:39
 msgid "Replace _All"
-msgstr "Reemplaça-ho  _tot"
+msgstr "Reemplaça-ho _tot"
 
 #: gedit/resources/ui/gedit-replace-dialog.ui:71
 msgctxt "label of the find button"
