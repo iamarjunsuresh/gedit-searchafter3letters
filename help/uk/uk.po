@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 00:56+0000\n"
-"PO-Revision-Date: 2021-04-26 19:58+0300\n"
+"POT-Creation-Date: 2021-05-10 19:38+0000\n"
+"PO-Revision-Date: 2021-05-16 21:25+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -342,6 +342,157 @@ msgid ""
 msgstr ""
 "Після відкриття «<app>gedit</app>» з правами адміністратора, ці права будуть "
 "доступні до закриття програми <app>gedit</app>."
+
+#. (itstool) path: info/desc
+#: C/gedit-character-encodings.page:9
+msgid "When text and characters do not look as expected."
+msgstr ""
+"Якщо текст та символи виглядають те так, як ви сподівалися."
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:12
+msgid "Andre Klapper"
+msgstr ""
+"Andre Klapper"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:14
+msgid "2020"
+msgstr ""
+"2020"
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:17
+msgid "Shaun McCance"
+msgstr ""
+"Shaun McCance"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:19
+msgid "2009"
+msgstr ""
+"2009"
+
+#. (itstool) path: license/p
+#: C/gedit-character-encodings.page:22
+#| msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/gedit-character-encodings.page:26
+msgid "Dealing with character encoding problems"
+msgstr ""
+"Вирішення проблем із кодуванням символів"
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:29
+msgid "Character encodings"
+msgstr ""
+"Кодування символів"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:30
+msgid ""
+"A character encoding is a specific way of recording characters internally in "
+"a computer. There are many character encodings."
+msgstr ""
+"Кодування символів — певний спосіб запису символів на внутрішньому рівні комп'ютера. Існує багато кодувань символів."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:32
+msgid ""
+"By default, <app>gedit</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Типово, у <app>gedit</app> використано UTF-8, сучасне кодування символів, у якому передбачено можливості роботи з текстами більшістю мов світу. Ще одним типовим кодуванням символів для англійської мови та деяких інших західноєвропейських мов є ISO-8859-1."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:38
+msgid "Problems"
+msgstr ""
+"Проблеми"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:39
+msgid ""
+"If you open a file in a different character encoding than the encoding in "
+"which the file was written, then some or all characters might be displayed "
+"incorrectly."
+msgstr ""
+"Якщо ви відкриєте файл, використавши кодування символів, яке відрізняється від кодування, у якому файл було записано, деякі із символів може бути показано неправильно."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:43
+msgid ""
+"This can happen if the file was created on another operating system or if "
+"the file uses a different script."
+msgstr ""
+"Таке може трапитися, якщо файл було створено у іншій операційній система або якщо у файлі використано іншу писемність."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:48
+msgid "Solutions"
+msgstr ""
+"Вирішення"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:50
+msgid ""
+"If the content of a text file does not look as expected, <link xref=\"gedit-"
+"open-files\">open the file</link> again by choosing a different "
+"<gui>Character Encoding</gui> at the bottom of the file chooser dialog."
+msgstr ""
+"Якщо вміст файла виглядає не так, як мав би виглядати, <link xref=\"gedit-open-files\">відкрийте файл</link> повторно, вибравши інше <gui>Кодування символів</gui> у нижній частині вікна вибору файла."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:54
+msgid ""
+"If you have an idea which language is used in the document or in the area of "
+"the original author of the document:"
+msgstr ""
+"Якщо ви не знаєте, якою мовою було написано початковий документ або яку мову використовують там, де живе автор початкової версії документа, зробіть так:"
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:58
+msgid ""
+"Select <gui style=\"menuitem\">Add or remove…</gui> from the <gui>Character "
+"Encoding</gui> dropdown at the bottom of the file chooser dialog."
+msgstr ""
+"Виберіть пункт <gui style=\"menuitem\">Додати або вилучти…</gui> у спадному списку <gui>Кодування символів</gui> у нижній частині вікна вибору файла."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:61
+msgid ""
+"Select one or more languages and their encodings under <gui>Available "
+"Encodings</gui> on the left."
+msgstr ""
+"Виберіть одну або декілька мов та відповідні кодування у списку <gui>Доступні кодування</gui> ліворуч."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:64
+msgid ""
+"Press <gui style=\"button\">+</gui> to add the selected encodings to the "
+"<gui>Character Encoding</gui> dropdown."
+msgstr ""
+"Натисніть кнопку <gui style=\"button\">+</gui>, щоб додати вибрані кодування до спадного списку <gui>Кодування символів</gui>."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:67
+#| msgid ""
+#| "To print the document to file, click <gui style=\"button\">Print</gui>."
+msgid "Close the dialog by pressing <gui style=\"button\">Apply</gui>."
+msgstr ""
+"Закрийте вікно натисканням кнопки <gui style=\"button\">Застосувати</gui>."
+
+#. (itstool) path: note/p
+#: C/gedit-character-encodings.page:71
+msgid ""
+"If none of these solutions solve the problem, then you could try to edit the "
+"file anyway. It is recommended to first create a backup copy of your file."
+msgstr ""
+"Якщо проблему не вдалося вирішити за допомогою цих способів, ви можете спробувати продовжити редагування файла попри це. Втім, рекомендуємо спершу створити резервну копію вашого файла."
 
 #. (itstool) path: info/desc
 #: C/gedit-files-basic.page:7
@@ -3155,12 +3306,6 @@ msgstr "Організація файлів в групові вкладки"
 
 #. (itstool) path: page/p
 #: C/gedit-tab-groups.page:24
-#| msgid ""
-#| "If you are working with multiple tabs in <app>gedit</app> you can group "
-#| "them, making it easier to keep your opened files organized. Adding a new "
-#| "tab group will divide the <app>gedit</app> window in two panes, open a "
-#| "new “Untitled File” in the new pane, and make it active. You can open "
-#| "files into that tab group and move tabs from one tab group to another."
 msgid ""
 "If you are working with multiple tabs in <app>gedit</app> you can group "
 "them, making it easier to keep your opened files organized. Adding a new tab "
@@ -3171,9 +3316,9 @@ msgstr ""
 "Якщо Ви працюєте в «<app>gedit</app>» з декількома вкладками, то можна їх "
 "групувати, щоб полегшити зберігання відкритих файлів організованими. Додання "
 "нової групи вкладок розділяє вікно «<app>gedit</app>» на два підвікна, "
-"відкриває новий «Неназваний документ» в новому підвікні та робить його активним. "
-"Можна відкривати файли в цій групі вкладок і переміщати їх з однієї групи в "
-"іншу."
+"відкриває новий «Неназваний документ» в новому підвікні та робить його "
+"активним. Можна відкривати файли в цій групі вкладок і переміщати їх з "
+"однієї групи в іншу."
 
 #. (itstool) path: section/title
 #: C/gedit-tab-groups.page:31
