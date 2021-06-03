@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"POT-Creation-Date: 2021-03-24 15:24+0000\n"
-"PO-Revision-Date: 2021-03-24 18:12+0100\n"
+"POT-Creation-Date: 2021-05-10 19:38+0000\n"
+"PO-Revision-Date: 2021-06-03 22:04+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -335,6 +335,157 @@ msgid ""
 msgstr ""
 "Då du har öppnat <app>gedit</app> med administratörsbehörighet kommer "
 "<app>gedit</app> att behålla denna behörighet tills du stänger det."
+
+#. (itstool) path: info/desc
+#: C/gedit-character-encodings.page:9
+msgid "When text and characters do not look as expected."
+msgstr "När text och tecken inte ser ut som förväntat."
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:12
+msgid "Andre Klapper"
+msgstr "Andre Klapper"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:14
+msgid "2020"
+msgstr "2020"
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:17
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:19
+msgid "2009"
+msgstr "2009"
+
+#. (itstool) path: license/p
+#: C/gedit-character-encodings.page:22
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons DelaLika 3.0"
+
+#. (itstool) path: page/title
+#: C/gedit-character-encodings.page:26
+msgid "Dealing with character encoding problems"
+msgstr "Hantera problem med teckenkodning"
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:29
+msgid "Character encodings"
+msgstr "Teckenkodningar"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:30
+msgid ""
+"A character encoding is a specific way of recording characters internally in "
+"a computer. There are many character encodings."
+msgstr ""
+"En teckenkodning är ett specifikt sätt att lagra tecken internt i en dator. "
+"Det finns många teckenkodningar."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:32
+msgid ""
+"By default, <app>gedit</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Som standard använder <appgedit</app> UTF-8, en modern teckenkodning som kan "
+"hantera text från de flesta av världens språk. En annan vanlig kodning för "
+"engelska och några andra västerländska språk är ISO-8859-1."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:38
+msgid "Problems"
+msgstr "Problem"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:39
+msgid ""
+"If you open a file in a different character encoding than the encoding in "
+"which the file was written, then some or all characters might be displayed "
+"incorrectly."
+msgstr ""
+"Om du öppnar en fil i en annan teckenkodning än kodningen som filen skrevs i "
+"så kan vissa eller alla tecken visas felaktigt."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:43
+msgid ""
+"This can happen if the file was created on another operating system or if "
+"the file uses a different script."
+msgstr ""
+"Detta kan hända om filen skapades på ett annat operativsystem eller om filen "
+"använder ett annat skriftsystem."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:48
+msgid "Solutions"
+msgstr "Lösningar"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:50
+msgid ""
+"If the content of a text file does not look as expected, <link xref=\"gedit-"
+"open-files\">open the file</link> again by choosing a different "
+"<gui>Character Encoding</gui> at the bottom of the file chooser dialog."
+msgstr ""
+"Om innehållet i en textfil inte ser ut som förväntat kan du <link xref="
+"\"gedit-open-files\">öppna filen</link> igen genom att välja en annan "
+"<gui>Teckenkodning</gui> längt ner i filväljardialogen."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:54
+msgid ""
+"If you have an idea which language is used in the document or in the area of "
+"the original author of the document:"
+msgstr ""
+"Om du har en aning om språket som används i dokumentet eller platsen för den "
+"ursprungliga författaren av dokumentet:"
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:58
+msgid ""
+"Select <gui style=\"menuitem\">Add or remove…</gui> from the <gui>Character "
+"Encoding</gui> dropdown at the bottom of the file chooser dialog."
+msgstr ""
+"Välj <gui style=\"menuitem\">Lägg till eller ta bort…</gui> från "
+"rullgardinsmenyn <gui>Teckenkodning</gui> längst ner i filväljardialogen."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:61
+msgid ""
+"Select one or more languages and their encodings under <gui>Available "
+"Encodings</gui> on the left."
+msgstr ""
+"Välj ett eller flera språk och deras kodningar under <gui>Tillgängliga "
+"kodningar</gui> till vänster."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:64
+msgid ""
+"Press <gui style=\"button\">+</gui> to add the selected encodings to the "
+"<gui>Character Encoding</gui> dropdown."
+msgstr ""
+"Tryck på <gui style=\"button\">+</gui> för att lägga till de valda "
+"kodningarna till rullgardinsmenyn <gui>Teckenkodning</gui>."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:67
+msgid "Close the dialog by pressing <gui style=\"button\">Apply</gui>."
+msgstr ""
+"Stäng dialogrutan genom att trycka på <gui style=\"button\">Verkställ</gui>."
+
+#. (itstool) path: note/p
+#: C/gedit-character-encodings.page:71
+msgid ""
+"If none of these solutions solve the problem, then you could try to edit the "
+"file anyway. It is recommended to first create a backup copy of your file."
+msgstr ""
+"Om ingen av dessa lösningar löser problemet så kan du försöka redigera filen "
+"i alla fall. Du rekommenderas att först skapa en säkerhetskopia av din fil."
 
 #. (itstool) path: info/desc
 #: C/gedit-files-basic.page:7
@@ -3163,14 +3314,14 @@ msgid ""
 "If you are working with multiple tabs in <app>gedit</app> you can group "
 "them, making it easier to keep your opened files organized. Adding a new tab "
 "group will divide the <app>gedit</app> window in two panes, open a new "
-"“Untitled File” in the new pane, and make it active. You can open files into "
-"that tab group and move tabs from one tab group to another."
+"“Untitled Document” in the new pane, and make it active. You can open files "
+"into that tab group and move tabs from one tab group to another."
 msgstr ""
 "Om du arbetar med flera flikar i <app>gedit</app> kan du gruppera dem vilket "
 "gör det lättare att hålla dina öppnade filer organiserade. Att lägga till en "
-"ny flikgrupp kommer dela <app>gedit</app>-fönstret i två paneler, öppna en "
-"ny ”Namnlös fil” i den nya panelen, och göra den aktiv. Du kan öppna filer "
-"till den flikgruppen och flytta flikar från en flikgrupp till en annan."
+"ny flikgrupp kommer dela <app>gedit</app>-fönstret i två paneler, öppna ett "
+"nytt ”Namnlöst dokument” i den nya panelen, och göra den aktiv. Du kan öppna "
+"filer till den flikgruppen och flytta flikar från en flikgrupp till en annan."
 
 #. (itstool) path: section/title
 #: C/gedit-tab-groups.page:31
