@@ -392,7 +392,7 @@ msgid ""
 "can handle text from most of the world's languages. Another common encoding "
 "for English and some other Western languages is ISO-8859-1."
 msgstr ""
-"Som standard använder <appgedit</app> UTF-8, en modern teckenkodning som kan "
+"Som standard använder <app>gedit</app> UTF-8, en modern teckenkodning som kan "
 "hantera text från de flesta av världens språk. En annan vanlig kodning för "
 "engelska och några andra västerländska språk är ISO-8859-1."
 
