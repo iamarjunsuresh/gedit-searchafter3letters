@@ -1,14 +1,17 @@
-News in [unreleased]
+News in Unreleased, xxxx-yy-zz
 ----------------------------
-* Deteplification:
-   - The tepl maintainer has "frozen" the project until further notice
-   - Moving things to tepl introduced some breakage, such as translation of the
-     default filename
-   - gedit didn't use much of the API anyway
-   - Used even less of amtk
-   - Revert all usage of amtk and tepl
-   - Unfortunatly a couple bug fixes may have been lost
-   - Plugin API is essentially reverted to 3.36
+*
+
+News in 41.alpha, 2021-07-17
+----------------------------
+* Replace use of Tepl and AMTK
+* Use sourceview4 in the snap build
+* Enable OpenLink plugin by default
+* Warn when trying to open a big file and allow to cancel
+* Port open-selector to GDateTime
+* Allow disabling gspell and python options
+* Fix parsing of font-family strgins when they contain whitespace
+* Translation updates.
 
 News in 40.1, 2021-04-17
 ------------------------
