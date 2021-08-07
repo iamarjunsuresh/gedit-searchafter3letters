@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-10 19:38+0000\n"
-"PO-Revision-Date: 2021-06-26 16:30+0300\n"
+"POT-Creation-Date: 2021-08-02 18:34+0000\n"
+"PO-Revision-Date: 2021-08-04 10:55+0300\n"
 "Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
 "Language: ru\n"
@@ -2620,6 +2620,7 @@ msgid ""
 "external ref='figures/gedit3-screenshot.png' "
 "md5='5fd76174e1e72f99c870b9983034ccd1'"
 msgstr ""
+"external ref='figures/notes-3-36.png' md5='834032bed3915c474541bf14c23a3c9c'"
 
 #. (itstool) path: page/p
 #: C/gedit-quickstart.page:30
