@@ -24,16 +24,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit/issues\n"
-"POT-Creation-Date: 2021-05-04 08:05+0000\n"
-"PO-Revision-Date: 2021-06-04 20:17+0200\n"
-"Last-Translator: Philipp Kiemle <philipp.kiemle@gmail.com>\n"
+"POT-Creation-Date: 2021-07-25 11:03+0000\n"
+"PO-Revision-Date: 2021-08-22 22:16+0200\n"
+"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 
 #: data/org.gnome.gedit.appdata.xml.in:7
 msgid "gedit"
@@ -222,7 +222,7 @@ msgstr "Leerzeichen einfügen"
 
 #: data/org.gnome.gedit.gschema.xml.in:97
 msgid "Whether gedit should insert spaces instead of tabs."
-msgstr "Soll gedit Leerzeichen an Stelle von Tabulatoren verwenden?"
+msgstr "Legt fest, ob gedit Leerzeichen statt Tabulatoren einfügen soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:101
 msgid "Automatic indent"
@@ -230,7 +230,7 @@ msgstr "Automatische Einrückung"
 
 #: data/org.gnome.gedit.gschema.xml.in:102
 msgid "Whether gedit should enable automatic indentation."
-msgstr "Soll gedit den Auto-Einzug verwenden?"
+msgstr "Legt fest, ob gedit die automatische Einrückung verwenden soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:106
 msgid "Display Line Numbers"
@@ -238,7 +238,7 @@ msgstr "Zeilennummern anzeigen"
 
 #: data/org.gnome.gedit.gschema.xml.in:107
 msgid "Whether gedit should display line numbers in the editing area."
-msgstr "Soll gedit Zeilennummern im Editor-Bereich anzeigen?"
+msgstr "Legt fest, ob gedit Zeilennummern im Editor-Bereich anzeigen soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:111
 msgid "Highlight Current Line"
@@ -246,7 +246,7 @@ msgstr "Aktuelle Zeile hervorheben"
 
 #: data/org.gnome.gedit.gschema.xml.in:112
 msgid "Whether gedit should highlight the current line."
-msgstr "Soll gedit die aktuelle Zeile hervorheben?"
+msgstr "Legt fest, ob gedit die aktuelle Zeile hervorheben soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:116
 msgid "Highlight Matching Brackets"
@@ -254,7 +254,7 @@ msgstr "Übereinstimmende Klammern hervorheben"
 
 #: data/org.gnome.gedit.gschema.xml.in:117
 msgid "Whether gedit should highlight matching brackets."
-msgstr "Soll gedit übereinstimmende Klammern hervorheben?"
+msgstr "Legt fest, ob gedit zusammengehörende Klammern hervorheben soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:121
 msgid "Display Right Margin"
@@ -262,7 +262,7 @@ msgstr "Rechten Rand anzeigen"
 
 #: data/org.gnome.gedit.gschema.xml.in:122
 msgid "Whether gedit should display the right margin in the editing area."
-msgstr "Soll gedit den rechten Rand im Editor-Bereich anzeigen?"
+msgstr "Legt fest, ob gedit den rechten Rand im Editor-Bereich anzeigen soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:126
 msgid "Right Margin Position"
@@ -320,8 +320,8 @@ msgid ""
 "Whether gedit should restore the previous cursor position when a file is "
 "loaded."
 msgstr ""
-"Soll gedit die vorherige Zeigerposition wiederherstellen wenn eine Datei "
-"geöffnet wird?"
+"Legt fest, ob gedit beim Öffnen einer Datei die vorherige Zeigerposition "
+"wiederherstellen soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:157
 msgid "Enable Syntax Highlighting"
@@ -329,7 +329,7 @@ msgstr "Syntax hervorheben"
 
 #: data/org.gnome.gedit.gschema.xml.in:158
 msgid "Whether gedit should enable syntax highlighting."
-msgstr "Soll gedit die Syntax hervorheben?"
+msgstr "Legt fest, ob gedit Syntaxhervorhebung aktivieren soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:162
 msgid "Enable Search Highlighting"
@@ -338,7 +338,7 @@ msgstr "Suchergebnisse hervorheben"
 #: data/org.gnome.gedit.gschema.xml.in:163
 msgid ""
 "Whether gedit should highlight all the occurrences of the searched text."
-msgstr "Soll gedit alle Suchergebnisse hervorheben?"
+msgstr "Legt fest, ob gedit alle Suchergebnisse hervorheben soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:167
 msgid "Ensure Trailing Newline"
@@ -348,7 +348,7 @@ msgstr "Angehängter Zeilenumbruch"
 msgid ""
 "Whether gedit will ensure that documents always end with a trailing newline."
 msgstr ""
-"Soll gedit Dokumenten stets mit einem angehängten Zeilenumbruch versehen?"
+"Legt fest, ob gedit Dokumente stets mit einem Zeilenumbruch beenden soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:174
 msgid "Notebook Show Tabs Mode"
@@ -375,7 +375,8 @@ msgstr "Statusleiste ist sichtbar"
 msgid ""
 "Whether the status bar at the bottom of editing windows should be visible."
 msgstr ""
-"Soll die Statusleiste am unteren Rand des Bearbeitungsfensters sichtbar sein?"
+"Legt fest, ob die Statusleiste am unteren Rand des Bearbeitungsfensters "
+"sichtbar sein soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:184
 msgid "Side panel is Visible"
@@ -385,7 +386,8 @@ msgstr "Seitenleiste ist sichtbar"
 msgid ""
 "Whether the side panel at the left of editing windows should be visible."
 msgstr ""
-"Soll die Seitenleiste am linken Rand des Bearbeitungsfensters sichtbar sein?"
+"Legt fest, ob die Seitenleiste am linken Rand des Bearbeitungsfensters "
+"sichtbar sein soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:194
 msgid "Print Syntax Highlighting"
@@ -393,7 +395,7 @@ msgstr "Beim Drucken Syntax hervorheben"
 
 #: data/org.gnome.gedit.gschema.xml.in:195
 msgid "Whether gedit should print syntax highlighting when printing documents."
-msgstr "Soll gedit im Ausdruck die Syntax hervorheben?"
+msgstr "Legt fest, ob gedit im Ausdruck die Syntax hervorheben soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:199
 msgid "Print Header"
@@ -401,7 +403,7 @@ msgstr "Kopfzeilen drucken"
 
 #: data/org.gnome.gedit.gschema.xml.in:200
 msgid "Whether gedit should include a document header when printing documents."
-msgstr "Soll gedit Dokumenten-Kopfzeilen im Ausdruck verwenden?"
+msgstr "Legt fest, ob gedit Dokumenten-Kopfzeilen im Ausdruck verwenden soll."
 
 #: data/org.gnome.gedit.gschema.xml.in:209
 msgid "Printing Line Wrapping Mode"
@@ -499,7 +501,7 @@ msgstr "Rand oben"
 
 #: data/org.gnome.gedit.gschema.xml.in:243
 msgid "The top margin, in millimeters."
-msgstr "Rand oben in Millimeter."
+msgstr "Der obere Rand in Millimeter."
 
 #: data/org.gnome.gedit.gschema.xml.in:247
 msgid "Margin Right"
@@ -515,7 +517,7 @@ msgstr "Rand unten"
 
 #: data/org.gnome.gedit.gschema.xml.in:253
 msgid "The bottom margin, in millimeters."
-msgstr "Rand unten in Millimeter"
+msgstr "Der untere Rand in Millimeter."
 
 #: data/org.gnome.gedit.gschema.xml.in:259
 msgid "Candidate Encodings"
@@ -2977,34 +2979,33 @@ msgstr "Dateiverwaltung"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:627
 msgid "An error occurred while creating a new directory"
-msgstr "Beim Anlegen eines neuen Ordners ist ein Fehler aufgetreten."
+msgstr "Beim Anlegen eines neuen Ordners ist ein Fehler aufgetreten"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:630
 msgid "An error occurred while creating a new file"
-msgstr "Beim Anlegen einer neuen Datei ist ein Fehler aufgetreten."
+msgstr "Beim Anlegen einer neuen Datei ist ein Fehler aufgetreten"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:633
 msgid "An error occurred while renaming a file or directory"
 msgstr ""
-"Beim Umbenennen einer Datei oder eines Ordners ist ein Fehler aufgetreten."
+"Beim Umbenennen einer Datei oder eines Ordners ist ein Fehler aufgetreten"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:636
 msgid "An error occurred while deleting a file or directory"
-msgstr ""
-"Beim Löschen einer Datei oder eines Ordners ist ein Fehler aufgetreten."
+msgstr "Beim Löschen einer Datei oder eines Ordners ist ein Fehler aufgetreten"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:639
 msgid "An error occurred while opening a directory in the file manager"
 msgstr ""
-"Beim Öffnen einer Datei in der Dateiverwaltung ist ein Fehler aufgetreten."
+"Beim Öffnen einer Datei in der Dateiverwaltung ist ein Fehler aufgetreten"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:642
 msgid "An error occurred while setting a root directory"
-msgstr "Beim Festlegen des Wurzelordners ist ein Fehler aufgetreten."
+msgstr "Beim Festlegen des Wurzelordners ist ein Fehler aufgetreten"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:645
 msgid "An error occurred while loading a directory"
-msgstr "Beim Laden eines Ordners ist ein Fehler aufgetreten."
+msgstr "Beim Laden eines Ordners ist ein Fehler aufgetreten"
 
 #: plugins/filebrowser/gedit-file-browser-plugin.c:648
 msgid "An error occurred"
@@ -3068,8 +3069,7 @@ msgid ""
 "settings to make the file visible"
 msgstr ""
 "Die neu angelegte Datei wird momentan aufgrund eines Filters nicht "
-"dargestellt. Der Filter muss angepasst werden, damit die Datei angezeigt "
-"wird."
+"dargestellt. Der Filter muss angepasst werden, damit die Datei angezeigt wird"
 
 #. Translators: This is the default name of new directories created by the file browser pane.
 #: plugins/filebrowser/gedit-file-browser-store.c:3638
@@ -3083,7 +3083,7 @@ msgid ""
 msgstr ""
 "Der neu angelegte Ordner wird momentan aufgrund eines Filters nicht "
 "dargestellt. Der Filter muss angepasst werden, damit der Ordner angezeigt "
-"wird."
+"wird"
 
 #: plugins/filebrowser/gedit-file-browser-widget.c:755
 msgid "Bookmarks"
@@ -3109,7 +3109,7 @@ msgstr "Der Datenträger konnte nicht eingebunden werden: »%s«"
 #, c-format
 msgid "Error when loading “%s”: No such directory"
 msgstr ""
-"Beim Laden von »%s« ist ein Fehler aufgetreten. Es gibt diesen Ordner nicht."
+"Beim Laden von »%s« ist ein Fehler aufgetreten. Es gibt diesen Ordner nicht"
 
 #: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:5
 msgid "Open With Tree View"
@@ -3287,7 +3287,7 @@ msgstr "Verweise öffnen"
 
 #: plugins/openlinks/openlinks.plugin.desktop.in:6
 msgid "Easy open URI links."
-msgstr ""
+msgstr "URI-Verweise einfach öffnen."
 
 #: plugins/pythonconsole/org.gnome.gedit.plugins.pythonconsole.gschema.xml:5
 msgid "Command Color Text"
@@ -3692,8 +3692,8 @@ msgid ""
 "If the user should be prompted for a format or if the selected or custom "
 "format should be used."
 msgstr ""
-"Soll der Benutzer nach einem Format gefragt werden oder das gewählte oder "
-"ein eigenes Format verwendet werden?"
+"Legt fest, ob der Benutzer nach einem Format gefragt, das gewählte oder ein "
+"eigenes Format verwendet werden soll."
 
 #: plugins/time/org.gnome.gedit.plugins.time.gschema.xml:10
 msgid "Selected Format"
