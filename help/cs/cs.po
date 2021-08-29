@@ -2404,7 +2404,7 @@ msgid ""
 "In the <gui style=\"tab\">General</gui> tab, select the desired printer from "
 "the list of printers available."
 msgstr ""
-"Na kartě gui style=\"tab\">Obecné</gui> vyberte požadovanou tiskárnu ze "
+"Na kartě <gui style=\"tab\">Obecné</gui> vyberte požadovanou tiskárnu ze "
 "seznamu dostupných tiskáren."
 
 #. (itstool) path: item/p
