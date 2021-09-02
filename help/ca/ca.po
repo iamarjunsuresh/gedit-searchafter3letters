@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit.help.master\n"
-"POT-Creation-Date: 2021-05-10 19:38+0000\n"
+"POT-Creation-Date: 2021-09-01 19:28+0000\n"
 "PO-Revision-Date: 2021-03-12 17:53+0100\n"
 "Last-Translator: Miquel-Àngel Burgos i Fradeja <miquel.angel.burgos@gmail.com>\n"
 "Language-Team: Catalan (https://www.transifex.com/softcatala/teams/62837/ca/)\n"
@@ -42,7 +42,7 @@ msgstr "Canvia els colors del text i del fons de pantalla al gedit."
 #: C/gedit-plugins-insert-date-time.page:15 C/gedit-plugins-install.page:8
 #: C/gedit-plugins-modelines.page:13 C/gedit-plugins-pyconsole.page:10
 #: C/gedit-plugins-quick-open.page:11 C/gedit-plugins-snippets.page:9
-#: C/gedit-plugins-sort.page:14 C/gedit-printing.page:10
+#: C/gedit-plugins-sort.page:14 C/gedit-printing.page:11
 #: C/gedit-quickstart.page:12 C/gedit-replace.page:14
 #: C/gedit-save-file.page:13 C/gedit-search.page:12 C/gedit-spellcheck.page:12
 #: C/gedit-syntax-highlighting.page:10 C/gedit-tabs-moving.page:13
@@ -370,23 +370,18 @@ msgstr "Shaun McCance"
 msgid "2009"
 msgstr "2009"
 
-#. (itstool) path: license/p
-#: C/gedit-character-encodings.page:22
-msgid "Creative Commons Share Alike 3.0"
-msgstr "Creative Commons Compartir Igual 3.0"
-
 #. (itstool) path: page/title
-#: C/gedit-character-encodings.page:26
+#: C/gedit-character-encodings.page:24
 msgid "Dealing with character encoding problems"
 msgstr "Tractament de problemes de codificació de caràcters"
 
 #. (itstool) path: section/title
-#: C/gedit-character-encodings.page:29
+#: C/gedit-character-encodings.page:27
 msgid "Character encodings"
 msgstr "Codificacions de caràcters"
 
 #. (itstool) path: section/p
-#: C/gedit-character-encodings.page:30
+#: C/gedit-character-encodings.page:28
 msgid ""
 "A character encoding is a specific way of recording characters internally in"
 " a computer. There are many character encodings."
@@ -395,7 +390,7 @@ msgstr ""
 "internament en un ordinador. Hi ha moltes codificacions de caràcters."
 
 #. (itstool) path: section/p
-#: C/gedit-character-encodings.page:32
+#: C/gedit-character-encodings.page:30
 msgid ""
 "By default, <app>gedit</app> uses UTF-8, a modern character encoding that "
 "can handle text from most of the world's languages. Another common encoding "
@@ -407,12 +402,12 @@ msgstr ""
 "l'ISO-8859-1."
 
 #. (itstool) path: section/title
-#: C/gedit-character-encodings.page:38
+#: C/gedit-character-encodings.page:36
 msgid "Problems"
 msgstr "Problemes"
 
 #. (itstool) path: section/p
-#: C/gedit-character-encodings.page:39
+#: C/gedit-character-encodings.page:37
 msgid ""
 "If you open a file in a different character encoding than the encoding in "
 "which the file was written, then some or all characters might be displayed "
@@ -423,7 +418,7 @@ msgstr ""
 "caràcters es mostraran incorrectament."
 
 #. (itstool) path: section/p
-#: C/gedit-character-encodings.page:43
+#: C/gedit-character-encodings.page:41
 msgid ""
 "This can happen if the file was created on another operating system or if "
 "the file uses a different script."
@@ -432,12 +427,12 @@ msgstr ""
 "el fitxer utilitza un script diferent."
 
 #. (itstool) path: section/title
-#: C/gedit-character-encodings.page:48
+#: C/gedit-character-encodings.page:46
 msgid "Solutions"
 msgstr "Solucions"
 
 #. (itstool) path: section/p
-#: C/gedit-character-encodings.page:50
+#: C/gedit-character-encodings.page:48
 msgid ""
 "If the content of a text file does not look as expected, <link xref=\"gedit-"
 "open-files\">open the file</link> again by choosing a different "
@@ -449,7 +444,7 @@ msgstr ""
 "selecció de fitxers."
 
 #. (itstool) path: section/p
-#: C/gedit-character-encodings.page:54
+#: C/gedit-character-encodings.page:52
 msgid ""
 "If you have an idea which language is used in the document or in the area of"
 " the original author of the document:"
@@ -458,7 +453,7 @@ msgstr ""
 "l'autor original del document:"
 
 #. (itstool) path: item/p
-#: C/gedit-character-encodings.page:58
+#: C/gedit-character-encodings.page:56
 msgid ""
 "Select <gui style=\"menuitem\">Add or remove…</gui> from the <gui>Character "
 "Encoding</gui> dropdown at the bottom of the file chooser dialog."
@@ -468,7 +463,7 @@ msgstr ""
 "diàleg de selecció de fitxers."
 
 #. (itstool) path: item/p
-#: C/gedit-character-encodings.page:61
+#: C/gedit-character-encodings.page:59
 msgid ""
 "Select one or more languages and their encodings under <gui>Available "
 "Encodings</gui> on the left."
@@ -477,7 +472,7 @@ msgstr ""
 "<gui>Codificacions disponibles</gui> a l'esquerra."
 
 #. (itstool) path: item/p
-#: C/gedit-character-encodings.page:64
+#: C/gedit-character-encodings.page:62
 msgid ""
 "Press <gui style=\"button\">+</gui> to add the selected encodings to the "
 "<gui>Character Encoding</gui> dropdown."
@@ -486,19 +481,19 @@ msgstr ""
 "seleccionades al desplegable <gui>Codificació de caràcters</gui>."
 
 #. (itstool) path: item/p
-#: C/gedit-character-encodings.page:67
+#: C/gedit-character-encodings.page:65
 msgid "Close the dialog by pressing <gui style=\"button\">Apply</gui>."
 msgstr "Tanqueu el diàleg prement <gui style=\"button\">Aplica</gui>."
 
 #. (itstool) path: note/p
-#: C/gedit-character-encodings.page:71
+#: C/gedit-character-encodings.page:69
 msgid ""
 "If none of these solutions solve the problem, then you could try to edit the"
 " file anyway. It is recommended to first create a backup copy of your file."
 msgstr ""
 "Si cap d'aquestes solucions resol el problema, podeu intentar editar el "
-"fitxer de totes maneres. Es recomana crear primer una còpia de seguretat "
-"del fitxer."
+"fitxer de totes maneres. Es recomana crear primer una còpia de seguretat del"
+" fitxer."
 
 #. (itstool) path: info/desc
 #: C/gedit-files-basic.page:7
@@ -1829,8 +1824,8 @@ msgstr ""
 
 #. (itstool) path: credit/name
 #: C/gedit-plugins-snippets.page:13 C/gedit-plugins-sort.page:18
-#: C/gedit-printing-order.page:15 C/gedit-printing.page:14
-#: C/gedit-printing-select.page:14 C/gedit-quickstart.page:16
+#: C/gedit-printing-order.page:16 C/gedit-printing.page:15
+#: C/gedit-printing-select.page:15 C/gedit-quickstart.page:16
 #: C/gedit-replace.page:22 C/gedit-save-file.page:17 C/gedit-search.page:20
 #: C/gedit-spellcheck.page:20 C/gedit-syntax-highlighting.page:14
 #: C/gedit-tabs-moving.page:21 C/gedit-tabs.page:22 C/gedit-undo-redo.page:20
@@ -2289,22 +2284,22 @@ msgid "Set the pages to print in a certain order."
 msgstr "Establiu l'ordre d'impressió de les pàgines."
 
 #. (itstool) path: credit/name
-#: C/gedit-printing-order.page:11 C/gedit-printing-select.page:10
+#: C/gedit-printing-order.page:12 C/gedit-printing-select.page:11
 msgid "Phil Bull"
 msgstr "Phil Bull"
 
 #. (itstool) path: page/title
-#: C/gedit-printing-order.page:21
+#: C/gedit-printing-order.page:22
 msgid "Getting Copies To Print In The Correct Order"
 msgstr "Imprimir les còpies en l'ordre correcte"
 
 #. (itstool) path: section/title
-#: C/gedit-printing-order.page:24
+#: C/gedit-printing-order.page:25
 msgid "Reverse"
 msgstr "Invers"
 
 #. (itstool) path: section/p
-#: C/gedit-printing-order.page:26
+#: C/gedit-printing-order.page:27
 msgid ""
 "Printers usually print the first page first, and the last page last, so the "
 "pages end up in reverse order when you pick them up. To reverse the order:"
@@ -2314,16 +2309,18 @@ msgstr ""
 "recullen. Podeu invertir aquest l'ordre:"
 
 #. (itstool) path: item/p
-#: C/gedit-printing-order.page:32
+#: C/gedit-printing-order.page:33 C/gedit-printing-order.page:57
+#: C/gedit-printing.page:39 C/gedit-printing.page:62 C/gedit-printing.page:99
+#: C/gedit-printing-select.page:29
 msgid ""
-"Select <guiseq><gui style=\"menu\">File</gui> <gui "
-"style=\"menuitem\">Print</gui></guiseq>."
+"Press the menu button in the top-right corner of the window and select the "
+"Print button."
 msgstr ""
-"Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
-"style=\"menuitem\">Imprimeix</gui></guiseq>."
+"Premeu el botó de menú de la cantonada superior dreta de la finestra i "
+"seleccioneu el botó Imprimeix."
 
 #. (itstool) path: item/p
-#: C/gedit-printing-order.page:36
+#: C/gedit-printing-order.page:37
 msgid ""
 "In the <gui style=\"tab\">General</gui> tab of the Print dialog under <gui "
 "style=\"group\">Copies</gui>, check <gui style=\"checkbox\">Reverse</gui>."
@@ -2333,17 +2330,17 @@ msgstr ""
 "style=\"checkbox\">Invers</gui>."
 
 #. (itstool) path: section/p
-#: C/gedit-printing-order.page:42
+#: C/gedit-printing-order.page:43
 msgid "The last page will be printed first, and so on."
 msgstr "La darrera pàgina s'imprimirà primer, etcètera."
 
 #. (itstool) path: section/title
-#: C/gedit-printing-order.page:46
+#: C/gedit-printing-order.page:47
 msgid "Collate"
 msgstr "Intercala"
 
 #. (itstool) path: section/p
-#: C/gedit-printing-order.page:48
+#: C/gedit-printing-order.page:49
 msgid ""
 "If you are printing more than one copy of the document, the print outs will "
 "be grouped by page number by default. (e.g. The copies of page one come out,"
@@ -2356,21 +2353,12 @@ msgstr ""
 " còpia surti amb les seves pàgines agrupades."
 
 #. (itstool) path: section/p
-#: C/gedit-printing-order.page:53
+#: C/gedit-printing-order.page:54
 msgid "To Collate:"
 msgstr "Per a intercalar:"
 
 #. (itstool) path: item/p
-#: C/gedit-printing-order.page:56
-msgid ""
-"Click <guiseq><gui style=\"menu\">File</gui> <gui "
-"style=\"menuitem\">Print</gui></guiseq>."
-msgstr ""
-"Feu clic a <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
-"style=\"menuitem\">Imprimeix</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/gedit-printing-order.page:60
+#: C/gedit-printing-order.page:61
 msgid ""
 "In the <gui style=\"tab\">General</gui> tab of the Print dialog under <gui "
 "style=\"group\">Copies</gui> check <gui style=\"checkbox\">Collate</gui>."
@@ -2385,12 +2373,12 @@ msgid "Print the files that you create with gedit."
 msgstr "Imprimiu els fitxers que creeu amb el gedit."
 
 #. (itstool) path: page/title
-#: C/gedit-printing.page:20
+#: C/gedit-printing.page:21
 msgid "Printing documents"
 msgstr "Imprimir documents"
 
 #. (itstool) path: note/p
-#: C/gedit-printing.page:23
+#: C/gedit-printing.page:24
 msgid ""
 "Printing with <app>gedit</app> requires that you have connected and "
 "configured your printer. If you have not done this, please consult the <link"
@@ -2401,18 +2389,18 @@ msgstr ""
 "href=\"help:gnome-help/printing\">ajuda per a la impressió del GNOME</link>."
 
 #. (itstool) path: page/p
-#: C/gedit-printing.page:28
+#: C/gedit-printing.page:29
 msgid "<app>gedit</app> allows you to print both to a file and to paper."
 msgstr ""
 "El <app>gedit</app> us permet imprimir tant en un fitxer com en paper."
 
 #. (itstool) path: section/title
-#: C/gedit-printing.page:31
+#: C/gedit-printing.page:32
 msgid "Print Preview"
 msgstr "Vista prèvia d'impressió"
 
 #. (itstool) path: section/p
-#: C/gedit-printing.page:33
+#: C/gedit-printing.page:34
 msgid ""
 "Prior to printing your document, you can preview how the printed document "
 "will look by using <gui>Print Preview</gui>. To preview the document:"
@@ -2422,18 +2410,12 @@ msgstr ""
 "obtenir una vista prèvia del document:"
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:38
-msgid ""
-"Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print "
-"Preview</gui></guiseq>. Alternatively, you can press "
-"<keyseq><key>Shift</key><key>Ctrl</key> <key>P</key></keyseq>."
-msgstr ""
-"Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
-"style=\"menuitem\">Visualització prèvia</gui></guiseq>. Alternativament, "
-"podeu prémer <keyseq><key>Maj</key><key>Ctrl</key> <key>P</key></keyseq>."
+#: C/gedit-printing.page:43
+msgid "Press <gui style=\"button\">Preview</gui>."
+msgstr "Premeu <gui style=\"button\">Vista prèvia</gui>."
 
 #. (itstool) path: section/p
-#: C/gedit-printing.page:45
+#: C/gedit-printing.page:47
 msgid ""
 "A preview of your document will open in the same tab as the file. You can "
 "browse this preview with help of navigation buttons and tools in the toolbar"
@@ -2447,12 +2429,12 @@ msgstr ""
 " feu clic a <gui style=\"button\">Tanca la vista prèvia</gui>."
 
 #. (itstool) path: section/title
-#: C/gedit-printing.page:53
+#: C/gedit-printing.page:55
 msgid "Printing To Paper"
 msgstr "Imprimir en paper"
 
 #. (itstool) path: section/p
-#: C/gedit-printing.page:55
+#: C/gedit-printing.page:57
 msgid ""
 "You can print your documents to paper using a local or remote printer. To "
 "print a file:"
@@ -2461,32 +2443,18 @@ msgstr ""
 "local o remota. Per a imprimir un fitxer:"
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:60
+#: C/gedit-printing.page:66
 msgid ""
-"Select <guiseq><gui style=\"menu\">File</gui> <gui "
-"style=\"menuitem\">Print</gui> <gui style=\"tab\">General</gui></guiseq>."
+"In the <gui style=\"tab\">General</gui> tab, select the desired printer from"
+" the list of printers available."
 msgstr ""
-"Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
-"style=\"menuitem\">Imprimeix</gui> <gui "
-"style=\"tab\">General</gui></guiseq>."
+"A la pestanya <gui style=\"tab\">General</gui>, seleccioneu la impressora "
+"desitjada de la llista d'impressores disponibles."
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:65
-msgid "Select the desired printer from the list of printers available."
-msgstr ""
-"Seleccioneu la impressora desitjada de la llista d'impressores disponibles."
-
-#. (itstool) path: item/p
-#: C/gedit-printing.page:68
-msgid ""
-"You can preview the file using <gui style=\"button\">Print Preview</gui> and"
-" once you are satisfied with the settings, click <gui "
-"style=\"button\">Print</gui> to send the file to printer."
-msgstr ""
-"Podeu previsualitzar el fitxer utilitzant <gui style=\"button\">Vista prèvia"
-" d'impressió</gui> i una vegada estigueu satisfets amb la configuració, feu "
-"clic a <gui style=\"button\">Imprimeix</gui> per a enviar el fitxer a la "
-"impressora."
+#: C/gedit-printing.page:70 C/gedit-printing.page:121
+msgid "Press <gui style=\"button\">Print</gui>."
+msgstr "Premeu <gui style=\"button\">Imprimeix</gui>."
 
 #. (itstool) path: section/p
 #: C/gedit-printing.page:74
@@ -2528,49 +2496,39 @@ msgstr "Imprimir a un fitxer"
 #: C/gedit-printing.page:94
 msgid ""
 "You can also use <app>gedit</app> to print to a file. To print your document"
-" to file of a different format:"
+" to a file of a different format:"
 msgstr ""
 "També podeu utilitzar el <app>gedit</app> per a imprimir a un fitxer. Per a "
 "imprimir el document a un format diferent:"
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:99
+#: C/gedit-printing.page:103
 msgid ""
-"Select <guiseq><gui style=\"menu\">File</gui> <gui "
-"style=\"menuitem\">Print</gui> <gui style=\"menuitem\">Print to "
-"File</gui></guiseq>."
+"In the <gui style=\"tab\">General</gui> tab, select <gui>Print to File</gui>"
+" from the list of printers available."
 msgstr ""
-"Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
-"style=\"menuitem\">Imprimeix</gui> <gui style=\"menuitem\">Imprimeix a un "
-"fitxer</gui></guiseq>."
+"A la pestanya <gui style=\"tab\">General</gui>, seleccioneu <gui>Imprimeix "
+"al fitxer</gui> de la llista d'impressores disponibles."
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:104
-msgid ""
-"Printing is enabled for the following file formats, you may select from:"
-msgstr "La impressió està habilitada per als formats de fitxer següents:"
+#: C/gedit-printing.page:107
+msgid "Select an output format:"
+msgstr "Seleccioneu un format de sortida:"
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:108
+#: C/gedit-printing.page:110
 msgid "Portable Document Format (.pdf)"
 msgstr "Format de document portable (.pdf)"
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:111
+#: C/gedit-printing.page:113
 msgid "PostScript (.ps)"
 msgstr "PostScript (.ps)"
 
 #. (itstool) path: item/p
-#: C/gedit-printing.page:114
+#: C/gedit-printing.page:116
 msgid "Scalable Vector Graphic (.svg)"
 msgstr "Gràfic de vectors escalables (.svg)"
-
-#. (itstool) path: item/p
-#: C/gedit-printing.page:119
-msgid "To print the document to file, click <gui style=\"button\">Print</gui>."
-msgstr ""
-"Per a imprimir el document a un fitxer, feu clic a <gui "
-"style=\"button\">Imprimeix</gui>."
 
 #. (itstool) path: info/desc
 #: C/gedit-printing-select.page:7
@@ -2578,12 +2536,12 @@ msgid "Choose the pages that you want to print."
 msgstr "Trieu les pàgines que voleu imprimir."
 
 #. (itstool) path: page/title
-#: C/gedit-printing-select.page:20
+#: C/gedit-printing-select.page:21
 msgid "Only print certain pages"
 msgstr "Imprimir només determinades pàgines"
 
 #. (itstool) path: page/p
-#: C/gedit-printing-select.page:22
+#: C/gedit-printing-select.page:23
 msgid ""
 "You can selectively print only certain pages from the document. For example,"
 " if you enter the page numbers \"1,3,5-7,9\", then only pages 1, 3, 5, 6, 7 "
@@ -2594,16 +2552,7 @@ msgstr ""
 "pàgines 1, 3, 5, 6, 7 i 9. Per a imprimir les pàgines que vulgueu:"
 
 #. (itstool) path: item/p
-#: C/gedit-printing-select.page:28
-msgid ""
-"Select <guiseq><gui style=\"menu\">File</gui> <gui "
-"style=\"menuitem\">Print…</gui></guiseq>."
-msgstr ""
-"Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
-"style=\"menuitem\">Imprimeix…</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/gedit-printing-select.page:32
+#: C/gedit-printing-select.page:33
 msgid ""
 "In the <gui style=\"tab\">General</gui> tab in the Print dialog choose <gui "
 "style=\"radiobutton\">Pages</gui> from the <gui style=\"group\">Range</gui> "
@@ -2614,7 +2563,7 @@ msgstr ""
 "style=\"group\">Rangs</gui>."
 
 #. (itstool) path: item/p
-#: C/gedit-printing-select.page:36
+#: C/gedit-printing-select.page:37
 msgid ""
 "Type the numbers of the pages you want to print from the document, separated"
 " by commas. Use a dash to specify a range of pages."
@@ -3764,3 +3713,66 @@ msgstr "Creative Commons Atribució Compartir Igual 3.0 Llicència no portada"
 msgid "This work is licensed under a <_:link-1/>."
 msgstr "Aquest treball està llicenciat sota <_:link-1/>."
 
+#~ msgid "Creative Commons Share Alike 3.0"
+#~ msgstr "Creative Commons Compartir Igual 3.0"
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">File</gui> <gui "
+#~ "style=\"menuitem\">Print</gui></guiseq>."
+#~ msgstr ""
+#~ "Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
+#~ "style=\"menuitem\">Imprimeix</gui></guiseq>."
+
+#~ msgid ""
+#~ "Click <guiseq><gui style=\"menu\">File</gui> <gui "
+#~ "style=\"menuitem\">Print</gui></guiseq>."
+#~ msgstr ""
+#~ "Feu clic a <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
+#~ "style=\"menuitem\">Imprimeix</gui></guiseq>."
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">File</gui> <gui style=\"menuitem\">Print "
+#~ "Preview</gui></guiseq>. Alternatively, you can press "
+#~ "<keyseq><key>Shift</key><key>Ctrl</key> <key>P</key></keyseq>."
+#~ msgstr ""
+#~ "Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
+#~ "style=\"menuitem\">Visualització prèvia</gui></guiseq>. Alternativament, "
+#~ "podeu prémer <keyseq><key>Maj</key><key>Ctrl</key> <key>P</key></keyseq>."
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">File</gui> <gui "
+#~ "style=\"menuitem\">Print</gui> <gui style=\"tab\">General</gui></guiseq>."
+#~ msgstr ""
+#~ "Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
+#~ "style=\"menuitem\">Imprimeix</gui> <gui "
+#~ "style=\"tab\">General</gui></guiseq>."
+
+#~ msgid ""
+#~ "You can preview the file using <gui style=\"button\">Print Preview</gui> and"
+#~ " once you are satisfied with the settings, click <gui "
+#~ "style=\"button\">Print</gui> to send the file to printer."
+#~ msgstr ""
+#~ "Podeu previsualitzar el fitxer utilitzant <gui style=\"button\">Vista prèvia"
+#~ " d'impressió</gui> i una vegada estigueu satisfets amb la configuració, feu "
+#~ "clic a <gui style=\"button\">Imprimeix</gui> per a enviar el fitxer a la "
+#~ "impressora."
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">File</gui> <gui "
+#~ "style=\"menuitem\">Print</gui> <gui style=\"menuitem\">Print to "
+#~ "File</gui></guiseq>."
+#~ msgstr ""
+#~ "Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
+#~ "style=\"menuitem\">Imprimeix</gui> <gui style=\"menuitem\">Imprimeix a un "
+#~ "fitxer</gui></guiseq>."
+
+#~ msgid ""
+#~ "Printing is enabled for the following file formats, you may select from:"
+#~ msgstr "La impressió està habilitada per als formats de fitxer següents:"
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">File</gui> <gui "
+#~ "style=\"menuitem\">Print…</gui></guiseq>."
+#~ msgstr ""
+#~ "Seleccioneu <guiseq><gui style=\"menu\">Fitxer</gui> <gui "
+#~ "style=\"menuitem\">Imprimeix…</gui></guiseq>."
