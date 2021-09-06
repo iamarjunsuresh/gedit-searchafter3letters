@@ -21,10 +21,10 @@ msgstr ""
 "Project-Id-Version: gedit-help\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gedit&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2021-08-20 10:10+0000\n"
-"PO-Revision-Date: 2021-09-06 11:18-0300\n"
-"Last-Translator: Rodrigo Costa <rodrigo.costa@outlook.it>\n"
-"Language-Team: Português <gnome-pt_br-list@gnome.org>\n"
+"POT-Creation-Date: 2021-08-20 10:09+0000\n"
+"PO-Revision-Date: 2021-09-06 11:41-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,7 @@ msgstr ""
 "Krix Apolinário <krixapolinario@gmail.com>, 2009\n"
 "José Carlos Menezes <jcmenezes.91@gmail.com>, 2013\n"
 "Enrico Nicoletto <liverig@gmail.com>, 2013, 2014\n"
-"Rafael Fontenelle <rafaelff@gnome.org>, 2013-2020\n"
+"Rafael Fontenelle <rafaelff@gnome.org>, 2013-2021\n"
 "Bruno Lopes <brunolopesdsilv@gmail.com>, 2021."
 
 #. (itstool) path: info/desc
@@ -368,6 +368,159 @@ msgstr ""
 "Assim que você tenha aberto o <app>gedit</app> com privilégios "
 "administrativos, o <app>gedit</app> irá manter estes privilégios até que "
 "você feche-a."
+
+#. (itstool) path: info/desc
+#: C/gedit-character-encodings.page:9
+msgid "When text and characters do not look as expected."
+msgstr "Quando o texto e os caracteres não têm a aparência esperada."
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:12
+msgid "Andre Klapper"
+msgstr "Andre Klapper"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:14
+msgid "2020"
+msgstr "2020"
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:17
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:19
+msgid "2009"
+msgstr "2009"
+
+#. (itstool) path: page/title
+#: C/gedit-character-encodings.page:24
+msgid "Dealing with character encoding problems"
+msgstr "Lidando com problemas de codificação de caracteres"
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:27
+msgid "Character encodings"
+msgstr "Codificações de caracteres"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:28
+msgid ""
+"A character encoding is a specific way of recording characters internally in "
+"a computer. There are many character encodings."
+msgstr ""
+"A codificação de caracteres é uma forma específica de gravar caracteres "
+"internamente em um computador. Existem muitas codificações de caracteres."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:30
+msgid ""
+"By default, <app>gedit</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Por padrão, <app>gedit</app> usa UTF-8, uma codificação de caracteres "
+"moderna que pode lidar com texto da maioria dos idiomas do mundo. Outra "
+"codificação comum para inglês e alguns outros idiomas ocidentais é "
+"ISO-8859-1."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:36
+msgid "Problems"
+msgstr "Problemas"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:37
+msgid ""
+"If you open a file in a different character encoding than the encoding in "
+"which the file was written, then some or all characters might be displayed "
+"incorrectly."
+msgstr ""
+"Se você abrir um arquivo com uma codificação de caracteres diferente da "
+"codificação em que o arquivo foi escrito, alguns ou todos os caracteres "
+"podem ser exibidos incorretamente."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:41
+msgid ""
+"This can happen if the file was created on another operating system or if "
+"the file uses a different script."
+msgstr ""
+"Isso pode acontecer se o arquivo foi criado em outro sistema operacional ou "
+"se o arquivo usa um script diferente."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:46
+msgid "Solutions"
+msgstr "Soluções"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:48
+msgid ""
+"If the content of a text file does not look as expected, <link xref=\"gedit-"
+"open-files\">open the file</link> again by choosing a different "
+"<gui>Character Encoding</gui> at the bottom of the file chooser dialog."
+msgstr ""
+"Se o conteúdo de um arquivo de texto não tiver a aparência esperada, <link "
+"xref=\"gedit-open-files\">abra o arquivo</link> novamente escolhendo uma "
+"<gui>Codificação de caracteres</gui> diferente na parte inferior de a caixa "
+"de diálogo do seletor de arquivos."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:52
+msgid ""
+"If you have an idea which language is used in the document or in the area of "
+"the original author of the document:"
+msgstr ""
+"Se você tem uma ideia de qual idioma é usado no documento ou na área do "
+"autor original do documento:"
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:56
+msgid ""
+"Select <gui style=\"menuitem\">Add or remove…</gui> from the <gui>Character "
+"Encoding</gui> dropdown at the bottom of the file chooser dialog."
+msgstr ""
+"Selecione <gui style=\"menuitem\">Adicionar ou remover…</gui> do menu "
+"suspenso <gui>Codificação de caracteres</gui> na parte inferior da caixa de "
+"diálogo do seletor de arquivos."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:59
+msgid ""
+"Select one or more languages and their encodings under <gui>Available "
+"Encodings</gui> on the left."
+msgstr ""
+"Selecione um ou mais idiomas e suas codificações em <gui>Codificações "
+"disponíveis</gui> à esquerda."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:62
+msgid ""
+"Press <gui style=\"button\">+</gui> to add the selected encodings to the "
+"<gui>Character Encoding</gui> dropdown."
+msgstr ""
+"Pressione <gui style=\"button\">+</gui> para adicionar as codificações "
+"selecionadas ao menu suspenso <gui>Codificação de caracteres</gui>."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:65
+#| msgid ""
+#| "To print the document to file, click <gui style=\"button\">Print</gui>."
+msgid "Close the dialog by pressing <gui style=\"button\">Apply</gui>."
+msgstr ""
+"Feche a caixa de diálogo pressionando <gui style=\"button\">Aplicar</gui>."
+
+#. (itstool) path: note/p
+#: C/gedit-character-encodings.page:69
+msgid ""
+"If none of these solutions solve the problem, then you could try to edit the "
+"file anyway. It is recommended to first create a backup copy of your file."
+msgstr ""
+"Se nenhuma dessas soluções resolver o problema, você poderá tentar editar o "
+"arquivo de qualquer maneira. Recomenda-se criar primeiro um backup do seu "
+"arquivo."
 
 #. (itstool) path: info/desc
 #: C/gedit-files-basic.page:7
@@ -2392,7 +2545,7 @@ msgid ""
 "from the list of printers available."
 msgstr ""
 "Na aba <gui style=\"tab\">Geral</gui>, selecione <gui>Imprimir para arquivo</"
-"gui> a partir da lista de impressoras disponíveis."
+"gui> da lista de impressoras disponíveis."
 
 #. (itstool) path: item/p
 #: C/gedit-printing.page:107
@@ -3215,12 +3368,18 @@ msgstr "Organizando arquivos em abas agrupadas"
 
 #. (itstool) path: page/p
 #: C/gedit-tab-groups.page:24
+#| msgid ""
+#| "If you are working with multiple tabs in <app>gedit</app> you can group "
+#| "them, making it easier to keep your opened files organized. Adding a new "
+#| "tab group will divide the <app>gedit</app> window in two panes, open a "
+#| "new “Untitled File” in the new pane, and make it active. You can open "
+#| "files into that tab group and move tabs from one tab group to another."
 msgid ""
 "If you are working with multiple tabs in <app>gedit</app> you can group "
 "them, making it easier to keep your opened files organized. Adding a new tab "
 "group will divide the <app>gedit</app> window in two panes, open a new "
-"“Untitled File” in the new pane, and make it active. You can open files into "
-"that tab group and move tabs from one tab group to another."
+"“Untitled Document” in the new pane, and make it active. You can open files "
+"into that tab group and move tabs from one tab group to another."
 msgstr ""
 "Se você está trabalhando em múltiplas abas no <app>gedit</app>, você pode "
 "agrupá-las, deixando mais fácil manter organizados os seus arquivos abertos. "
@@ -3514,6 +3673,8 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/index.page:8
+#| msgctxt "link"
+#| msgid "gedit Text Editor"
 msgctxt "link:trail"
 msgid "gedit Text Editor"
 msgstr "Editor de texto gedit"
