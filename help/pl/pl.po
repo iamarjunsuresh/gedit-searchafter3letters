@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit-help\n"
-"POT-Creation-Date: 2021-08-20 10:10+0000\n"
-"PO-Revision-Date: 2021-08-22 13:47+0200\n"
+"POT-Creation-Date: 2021-08-22 11:48+0000\n"
+"PO-Revision-Date: 2021-09-14 18:39+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -335,6 +335,153 @@ msgid ""
 msgstr ""
 "Po otwarciu programu <app>gedit</app> z uprawnieniami administracyjnymi "
 "będzie on je miał do zamknięcia."
+
+#. (itstool) path: info/desc
+#: C/gedit-character-encodings.page:9
+msgid "When text and characters do not look as expected."
+msgstr "Kiedy tekst i znaki wyglądają nie tak, jak powinny."
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:12
+msgid "Andre Klapper"
+msgstr "Andre Klapper"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:14
+msgid "2020"
+msgstr "2020"
+
+#. (itstool) path: credit/name
+#: C/gedit-character-encodings.page:17
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#. (itstool) path: credit/year
+#: C/gedit-character-encodings.page:19
+msgid "2009"
+msgstr "2009"
+
+#. (itstool) path: page/title
+#: C/gedit-character-encodings.page:24
+msgid "Dealing with character encoding problems"
+msgstr "Radzenie sobie z problemami związanymi z kodowaniem znaków"
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:27
+msgid "Character encodings"
+msgstr "Kodowania znaków"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:28
+msgid ""
+"A character encoding is a specific way of recording characters internally in "
+"a computer. There are many character encodings."
+msgstr ""
+"Kodowanie znaków to konkretny sposób, w jaki komputer wewnętrznie zapisuje "
+"znaki. Istnieje wiele kodowań znaków."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:30
+msgid ""
+"By default, <app>gedit</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Domyślnie <app>gedit</app> używa UTF-8, nowoczesnego kodowania znaków, które "
+"może obsłużyć tekst napisany w większości języków świata. Innym popularnym "
+"kodowaniem dla polskiego i innych języków środkowoeuropejskich jest ISO "
+"8859-2."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:36
+msgid "Problems"
+msgstr "Problemy"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:37
+msgid ""
+"If you open a file in a different character encoding than the encoding in "
+"which the file was written, then some or all characters might be displayed "
+"incorrectly."
+msgstr ""
+"Jeśli plik zostanie otwarty w innym kodowaniu znaków niż kodowanie, w którym "
+"został napisany, to część lub wszystkie znaki mogą być niepoprawnie "
+"wyświetlane."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:41
+msgid ""
+"This can happen if the file was created on another operating system or if "
+"the file uses a different script."
+msgstr ""
+"Może się to zdarzyć, jeśli plik został utworzony w innym systemie "
+"operacyjnym lub jeśli plik używa innego pisma."
+
+#. (itstool) path: section/title
+#: C/gedit-character-encodings.page:46
+msgid "Solutions"
+msgstr "Rozwiązania"
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:48
+msgid ""
+"If the content of a text file does not look as expected, <link xref=\"gedit-"
+"open-files\">open the file</link> again by choosing a different "
+"<gui>Character Encoding</gui> at the bottom of the file chooser dialog."
+msgstr ""
+"Jeśli treść pliku wygląda inaczej, niż powinna, <link xref=\"gedit-open-files"
+"\">otwórz go</link> jeszcze raz, wybierając inne <gui>Kodowanie znaków</gui> "
+"na dole okna wyboru pliku."
+
+#. (itstool) path: section/p
+#: C/gedit-character-encodings.page:52
+msgid ""
+"If you have an idea which language is used in the document or in the area of "
+"the original author of the document:"
+msgstr ""
+"Jeśli wiesz lub podejrzewasz, w jakim języku dokument jest napisany lub "
+"z jakiego regionu świata pochodzi autor:"
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:56
+msgid ""
+"Select <gui style=\"menuitem\">Add or remove…</gui> from the <gui>Character "
+"Encoding</gui> dropdown at the bottom of the file chooser dialog."
+msgstr ""
+"Wybierz <gui style=\"menuitem\">Dodaj lub usuń…</gui> z rozwijanej listy "
+"<gui>Kodowanie znaków</gui> na dole okna wyboru pliku."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:59
+msgid ""
+"Select one or more languages and their encodings under <gui>Available "
+"Encodings</gui> on the left."
+msgstr ""
+"Zaznacz jeden lub więcej języków i ich kodowania pod nagłówkiem "
+"<gui>Dostępne kodowania</gui> po lewej."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:62
+msgid ""
+"Press <gui style=\"button\">+</gui> to add the selected encodings to the "
+"<gui>Character Encoding</gui> dropdown."
+msgstr ""
+"Kliknij przycisk <gui style=\"button\">+</gui>, aby dodać zaznaczone "
+"kodowania do rozwijanej listy <gui>Kodowanie znaków</gui>."
+
+#. (itstool) path: item/p
+#: C/gedit-character-encodings.page:65
+msgid "Close the dialog by pressing <gui style=\"button\">Apply</gui>."
+msgstr "Zamknij okno klikając przycisk <gui style=\"button\">Zastosuj</gui>."
+
+#. (itstool) path: note/p
+#: C/gedit-character-encodings.page:69
+msgid ""
+"If none of these solutions solve the problem, then you could try to edit the "
+"file anyway. It is recommended to first create a backup copy of your file."
+msgstr ""
+"Jeśli żadne z tych rozwiązań nie pomoże, to można spróbować zmodyfikować "
+"plik mimo to. Zalecane jest najpierw utworzenie kopii zapasowej pliku."
 
 #. (itstool) path: info/desc
 #: C/gedit-files-basic.page:7
@@ -3070,13 +3217,13 @@ msgid ""
 "If you are working with multiple tabs in <app>gedit</app> you can group "
 "them, making it easier to keep your opened files organized. Adding a new tab "
 "group will divide the <app>gedit</app> window in two panes, open a new "
-"“Untitled File” in the new pane, and make it active. You can open files into "
-"that tab group and move tabs from one tab group to another."
+"“Untitled Document” in the new pane, and make it active. You can open files "
+"into that tab group and move tabs from one tab group to another."
 msgstr ""
 "Podczas pracy z wieloma kartami w programie <app>gedit</app> można je "
 "grupować, aby ułatwić organizację otwartych plików. Dodanie nowej grupy kart "
-"podzieli okno programu <app>gedit</app> na dwa panele, otworzy nowy „Plik "
-"bez tytułu” i go aktywuje. Można otwierać pliki w tej grupie kart "
+"podzieli okno programu <app>gedit</app> na dwa panele, otworzy nowy "
+"„Dokument bez tytułu” i go aktywuje. Można otwierać pliki w tej grupie kart "
 "i przenosić karty z jednej grupy do drugiej."
 
 #. (itstool) path: section/title
