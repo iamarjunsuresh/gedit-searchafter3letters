@@ -312,7 +312,7 @@ sort_items_by_mru (FileItem *a,
 {
 	g_assert (a != NULL && b != NULL);
 
-	return g_date_time_compare (b, a);
+	return g_date_time_compare (b->accessed, a->accessed);
 }
 
 static GList *
