@@ -439,7 +439,7 @@ msgid ""
 "<gui>Character Encoding</gui> at the bottom of the file chooser dialog."
 msgstr ""
 "Si el contingut d'un fitxer de text no apareix com s'esperava, <link "
-"xref=\"gedit-open-files\">obriu el fitxer</link> de nou escollint un altre "
+"xref=\"gedit-open-files\">obriu el fitxer</link> de nou escollint un altra "
 "<gui>Codificació de caràcters</gui> a la part inferior del diàleg de "
 "selecció de fitxers."
 
@@ -695,7 +695,7 @@ msgid ""
 "between open files. To list open files, choose <gui>Documents</gui> from the"
 " dropdown at the top of the panel."
 msgstr ""
-"Quan hàgeu obert diversos fitxers, podeu utilitzar el quadre lateral per a "
+"Quan hàgiu obert diversos fitxers, podeu utilitzar el quadre lateral per a "
 "desplaçar-vos entre ells. Per a llistar els fitxers oberts, trieu "
 "<gui>Documents</gui> des del menú desplegable a la part superior del quadre."
 
@@ -868,7 +868,7 @@ msgid ""
 msgstr ""
 "Els fitxers d'alguns tipus d'URI s'obren com a només de lectura, i els "
 "canvis que hi feu s'hauran de desar en una ubicació diferent. Per exemple, "
-"HTTP només permet llegir els fitxers. Els fitxers oberts a través de FTP són"
+"HTTP només permet llegir els fitxers. Els fitxers oberts a través d'FTP són"
 " de només lectura perquè no tots els servidors FTP funcionen correctament "
 "desant els fitxers remots."
 
@@ -1820,7 +1820,7 @@ msgid ""
 "regardless of whether or not you have opened them previously."
 msgstr ""
 "<app>Obertura ràpida</app> mostra els fitxers en qualsevol de les ubicacions"
-" anteriors, independentment que les hàgeu obert prèviament o no."
+" anteriors, independentment que les hàgiu obert prèviament o no."
 
 #. (itstool) path: credit/name
 #: C/gedit-plugins-snippets.page:13 C/gedit-plugins-sort.page:18
@@ -2092,7 +2092,7 @@ msgid ""
 msgstr ""
 "Si voleu inserir un fragment amb una drecera de teclat, feu clic al punter "
 "del ratolí a la caixa de text <gui style=\"input\">Drecera:</gui> i premeu "
-"la combinació de tecles desitjada. Un cop hàgeu premut i alliberat les "
+"la combinació de tecles desitjada. Un cop hàgiu premut i alliberat les "
 "tecles, s'establirà la drecera de teclat."
 
 #. (itstool) path: item/p
@@ -2694,7 +2694,7 @@ msgid ""
 "Once you have entered the original and replacement text, you can add extra "
 "parameters to the search. You can also choose what you want to replace:"
 msgstr ""
-"Un cop hàgeu introduït el text original i el de reemplaçament, podeu afegir "
+"Un cop hàgiu introduït el text original i el de reemplaçament, podeu afegir "
 "paràmetres addicionals a la cerca. També podeu triar què voleu reemplaçar:"
 
 #. (itstool) path: item/p
@@ -2945,7 +2945,7 @@ msgid ""
 "that match what you have entered."
 msgstr ""
 "A mesura que escriviu, el <app>gedit</app> començarà a ressaltar les parts "
-"de text que coincideixin amb el que hàgeu introduït."
+"de text que coincideixin amb el que hàgiu introduït."
 
 #. (itstool) path: page/p
 #: C/gedit-search.page:54
@@ -3009,7 +3009,7 @@ msgid ""
 "will appear in the search window."
 msgstr ""
 "Si destaqueu una part del text amb el ratolí, i a continuació premeu "
-"<keyseq><key>Ctrl</key><key>F</key></keyseq>, el text que hàgeu ressaltat "
+"<keyseq><key>Ctrl</key><key>F</key></keyseq>, el text que hàgiu ressaltat "
 "apareixerà a la finestra de cerca."
 
 #. (itstool) path: item/p
@@ -3075,7 +3075,7 @@ msgstr "Baptiste Mille-Mathias"
 #. (itstool) path: section/title
 #: C/gedit-spellcheck.page:28 C/gedit-spellcheck.page:49
 msgid "Spell-check your document"
-msgstr "Comproveu l'ortografia del document"
+msgstr "Comprovar l'ortografia del document"
 
 #. (itstool) path: section/title
 #: C/gedit-spellcheck.page:30
