@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit/issues\n"
-"POT-Creation-Date: 2021-05-10 19:27+0000\n"
+"POT-Creation-Date: 2021-09-15 15:10+0000\n"
 "PO-Revision-Date: 2021-06-12 12:05+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
@@ -1833,7 +1833,7 @@ msgstr "Enregistrar _tot"
 #: gedit/resources/gtk/menus-common.ui:338
 #: gedit/resources/gtk/menus-traditional.ui:130
 msgid "_Close All"
-msgstr "Tot _fermer"
+msgstr "Tot _tampar"
 
 #: gedit/resources/gtk/menus-common.ui:346
 msgid "_New Tab Group"
