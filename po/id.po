@@ -12,15 +12,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gedit master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit/issues\n"
-"POT-Creation-Date: 2021-06-12 10:06+0000\n"
-"PO-Revision-Date: 2021-07-20 20:58+0700\n"
+"POT-Creation-Date: 2021-09-15 15:10+0000\n"
+"PO-Revision-Date: 2021-12-22 15:59+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= n!=1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 3.0\n"
 
@@ -616,8 +616,6 @@ msgid_plural ""
 "lost."
 msgstr[0] ""
 "Jika tidak disimpan, perubahan dari %ld detik terakhir akan hilang selamanya."
-msgstr[1] ""
-"Jika tidak disimpan, perubahan dari %ld detik terakhir akan hilang selamanya."
 
 #: gedit/gedit-close-confirmation-dialog.c:321
 msgid ""
@@ -636,9 +634,6 @@ msgid_plural ""
 msgstr[0] ""
 "Jika tidak disimpan, perubahan dari satu menit %ld detik terakhir akan "
 "hilang selamanya."
-msgstr[1] ""
-"Jika tidak disimpan, perubahan dari satu menit %ld detik terakhir akan "
-"hilang selamanya."
 
 #: gedit/gedit-close-confirmation-dialog.c:337
 #, c-format
@@ -648,8 +643,6 @@ msgid_plural ""
 "If you don’t save, changes from the last %ld minutes will be permanently "
 "lost."
 msgstr[0] ""
-"Jika tidak disimpan, perubahan dari %ld menit terakhir akan hilang selamanya."
-msgstr[1] ""
 "Jika tidak disimpan, perubahan dari %ld menit terakhir akan hilang selamanya."
 
 #: gedit/gedit-close-confirmation-dialog.c:352
@@ -668,9 +661,6 @@ msgid_plural ""
 msgstr[0] ""
 "Jika tidak disimpan, perubahan dari satu jam %d menit terakhir akan hilang "
 "selamanya."
-msgstr[1] ""
-"Jika tidak disimpan, perubahan dari satu jam %d menit terakhir akan hilang "
-"selamanya."
 
 #: gedit/gedit-close-confirmation-dialog.c:373
 #, c-format
@@ -679,8 +669,6 @@ msgid ""
 msgid_plural ""
 "If you don’t save, changes from the last %d hours will be permanently lost."
 msgstr[0] ""
-"Jika tidak disimpan, perubahan dari %d jam terakhir akan hilang selamanya."
-msgstr[1] ""
 "Jika tidak disimpan, perubahan dari %d jam terakhir akan hilang selamanya."
 
 #: gedit/gedit-close-confirmation-dialog.c:400
@@ -694,9 +682,6 @@ msgid "There is %d document with unsaved changes. Save changes before closing?"
 msgid_plural ""
 "There are %d documents with unsaved changes. Save changes before closing?"
 msgstr[0] ""
-"Ada %d dokumen dengan perubahan yang belum disimpan. Simpan perubahan "
-"sebelum ditutup?"
-msgstr[1] ""
 "Ada %d dokumen dengan perubahan yang belum disimpan. Simpan perubahan "
 "sebelum ditutup?"
 
@@ -720,7 +705,6 @@ msgstr "Memuat berkas \"%s\"…"
 msgid "Loading %d file…"
 msgid_plural "Loading %d files…"
 msgstr[0] "Memuat %d berkas…"
-msgstr[1] "Memuat %d berkas…"
 
 #: gedit/gedit-commands-file.c:520
 #, c-format
@@ -800,8 +784,6 @@ msgid_plural ""
 "lost."
 msgstr[0] ""
 "Perubahan di dokumen dalam %ld detik terakhir akan hilang secara permanen."
-msgstr[1] ""
-"Perubahan di dokumen dalam %ld detik terakhir akan hilang secara permanen."
 
 #: gedit/gedit-commands-file.c:1477
 msgid ""
@@ -819,9 +801,6 @@ msgid_plural ""
 msgstr[0] ""
 "Perubahan di dokumen dalam menit dan %ld detik terakhir akan hilang secara "
 "permanen."
-msgstr[1] ""
-"Perubahan di dokumen dalam menit dan %ld detik terakhir akan hilang secara "
-"permanen."
 
 #: gedit/gedit-commands-file.c:1493
 #, c-format
@@ -831,8 +810,6 @@ msgid_plural ""
 "Changes made to the document in the last %ld minutes will be permanently "
 "lost."
 msgstr[0] ""
-"Perubahan di dokumen dalam %ld menit terakhir akan hilang secara permanen."
-msgstr[1] ""
 "Perubahan di dokumen dalam %ld menit terakhir akan hilang secara permanen."
 
 #: gedit/gedit-commands-file.c:1508
@@ -850,9 +827,6 @@ msgid_plural ""
 msgstr[0] ""
 "Perubahan di dokumen dalam jam dan %d menit terakhir akan hilang secara "
 "permanen."
-msgstr[1] ""
-"Perubahan di dokumen dalam jam dan %d menit terakhir akan hilang secara "
-"permanen."
 
 #: gedit/gedit-commands-file.c:1529
 #, c-format
@@ -861,8 +835,6 @@ msgid ""
 msgid_plural ""
 "Changes made to the document in the last %d hours will be permanently lost."
 msgstr[0] ""
-"Perubahan di dokumen dalam %d jam terakhir akan hilang secara permanen."
-msgstr[1] ""
 "Perubahan di dokumen dalam %d jam terakhir akan hilang secara permanen."
 
 #: gedit/gedit-commands-file.c:1552
@@ -888,7 +860,6 @@ msgstr ""
 msgid "Found and replaced %d occurrence"
 msgid_plural "Found and replaced %d occurrences"
 msgstr[0] "Menemukan dan mengganti %d kejadian"
-msgstr[1] "Menemukan dan mengganti %d kejadian"
 
 #: gedit/gedit-commands-search.c:114
 msgid "Found and replaced one occurrence"
@@ -1427,7 +1398,6 @@ msgstr "SSP"
 msgid "There is a tab with errors"
 msgid_plural "There are %d tabs with errors"
 msgstr[0] "Ada %d tab dengan galat"
-msgstr[1] "Ada %d tab dengan galat"
 
 #. Translators: the first %s is a file name (e.g. test.txt) the second one
 #. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
