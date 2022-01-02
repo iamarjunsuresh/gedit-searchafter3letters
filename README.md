@@ -32,34 +32,20 @@ File: https://github.com/iamarjunsuresh/gedit-searchafter3letters/blob/9ec7af122
 tweak above file  as per setting 
 
 
-to intall 
+to install 
+===
+git clone </br>
+cd gedit </br>
+mkdir build </br>
+cd build </br>
+mkdir output </br>
+meson --prefix=output/ </br>
+ninja </br>
+sudo ninja install  ( will overrwrite standard binary if prefix is not used) </br>
 
-cd gedit 
-mkdir build 
-cd build
-mkdir output 
-meson --prefix=output/
-ninja 
-sudo ninja install  ( will overrwrite standard binary if prefix is not used)
 
-
-setup XDG_DATADIR if installed to custom prefix 
+add custom prefix to  PATH & XDG_DATADIR if installed to custom prefix 
  
-To build gedit from source, see the [docs/build.md](docs/build.md) file.
-
-How to report bugs
-------------------
-
-Please read
-[the wiki page on how to report bugs](https://wiki.gnome.org/Apps/Gedit/ReportingBugs),
-it contains a list of frequently reported bugs and a link to the bug
-tracker.
-
-Contributions
--------------
-
-gedit development relies on voluntary contributions and everyone is invited
-to help.
 
 See the file [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
  
