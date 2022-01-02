@@ -1,7 +1,7 @@
 gedit - Search triggered only after 3 letters are typedin 
 ============================================
 
-project for fun  didnt completely work 
+project for fun  wont  completely work. will work on remaning part when god help me to do so .
 
 when searching large log files, gedit hangs up when trying to type in commonly used words or letters vowels due large no of occurence
 
