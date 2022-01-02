@@ -1,6 +1,7 @@
-gedit - The GNOME text editor
-=============================
+gedit - Search triggered only after 3 letters are typedin 
+============================================
 
+ 
 This is version 3.36.2 of gedit.
 
 gedit is the official text editor of the GNOME desktop environment.
@@ -12,28 +13,30 @@ application, or simply taking some quick notes, gedit will be a reliable
 tool to accomplish your task.
 
 Its flexible plugin system allows you to tailor the application to your
-needs and adapt it to your workflow.
+ 
+when searching large log files, gedit hangs up when trying to type in commonly used words or letters vowels due large no of occurence
 
-See the [gedit official website](https://wiki.gnome.org/Apps/Gedit) for
-more information.
+ 
 
-License
--------
+commit is will ignore searching if word is less than 3 letters
 
-gedit is released under the GNU General Public License (GPL) version 2 or
-later, see the file [COPYING](COPYING) for more information.
+File:
+tweak above file  as per setting 
 
-Dependencies
-------------
 
-gedit uses the GTK GUI toolkit.
+to intall 
 
-For a complete list of dependencies, see the file [meson.build](meson.build) and
-search the section “Dependencies”.
+cd gedit 
+mkdir build 
+cd build
+mkdir output 
+meson --prefix=output/
+ninja 
+sudo ninja install  ( will overrwrite standard binary if prefix is not used)
 
-Installation
-------------
 
+setup XDG_DATADIR if installed to custom prefix 
+ 
 To build gedit from source, see the [docs/build.md](docs/build.md) file.
 
 How to report bugs
@@ -51,3 +54,4 @@ gedit development relies on voluntary contributions and everyone is invited
 to help.
 
 See the file [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+ 
