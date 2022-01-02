@@ -1,7 +1,7 @@
 gedit - Search triggered only after 3 letters are typedin 
 ============================================
 
-<<<<<<< HEAD
+ 
  
 This is version 3.36.2 of gedit.
 
@@ -15,8 +15,10 @@ tool to accomplish your task.
 
 Its flexible plugin system allows you to tailor the application to your
  
+ 
 =======
-project for fun  didnt completely work 
+project for fun  wont  completely work. will work on remaning part when god help me to do so .
+ 
 
  
 when searching large log files, gedit hangs up when trying to type in commonly used words or letters vowels due large no of occurence
