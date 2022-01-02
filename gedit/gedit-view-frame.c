@@ -362,7 +362,10 @@ start_search (GeditViewFrame *frame)
 	{
 		return;
 	}
-
+	if(g_utf8_strlen(frame->search_text,-1)<=3){
+		printf("SEARCHING less than 3 letters\n");
+		return;
+	}
 	get_iter_at_start_mark (frame, &start_at);
 
 	gtk_source_search_context_forward_async (search_context,
@@ -1237,6 +1240,7 @@ init_search_entry (GeditViewFrame *frame)
 		gboolean selection_exists;
 		gchar *search_text = NULL;
 		gint selection_len = 0;
+
 		GtkSourceSearchContext *search_context;
 
 		if (frame->search_settings == NULL)
@@ -1275,12 +1279,12 @@ init_search_entry (GeditViewFrame *frame)
 
 			g_object_unref (search_context);
 		}
-
 		selection_exists = get_selected_text (buffer,
 		                                      &search_text,
 		                                      &selection_len);
+		printf("sdd searching arjun:%s,%d\n",search_text,selection_len);
 
-		if (selection_exists && (search_text != NULL) && (selection_len <= 160))
+		if (selection_exists && (search_text != NULL) && (selection_len <= 160)  )
 		{
 			gchar *search_text_escaped;
 
