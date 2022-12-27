@@ -100,6 +100,7 @@ void			 gedit_settings_set_list			(GSettings     *settings,
 #define GEDIT_SETTINGS_BOTTOM_PANEL_SIZE		"bottom-panel-size"
 #define GEDIT_SETTINGS_BOTTOM_PANEL_ACTIVE_PAGE		"bottom-panel-active-page"
 #define GEDIT_SETTINGS_ACTIVE_FILE_FILTER		"filter-id"
+#define GEDIT_SETTINGS_SEARCH_AFTER_CHAR_COUNT 3
 
 G_END_DECLS
 

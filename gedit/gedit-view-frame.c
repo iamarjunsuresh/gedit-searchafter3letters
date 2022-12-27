@@ -68,6 +68,7 @@ struct _GeditViewFrame
 	GtkWidget *go_up_button;
 	GtkWidget *go_down_button;
 
+
 	guint flush_timeout_id;
 	guint idle_update_entry_tag_id;
 	guint remove_entry_tag_timeout_id;
@@ -351,6 +352,7 @@ start_search_finished (GtkSourceSearchContext *search_context,
 static void
 start_search (GeditViewFrame *frame)
 {
+
 	GtkSourceSearchContext *search_context;
 	GtkTextIter start_at;
 
@@ -362,10 +364,7 @@ start_search (GeditViewFrame *frame)
 	{
 		return;
 	}
-	if(g_utf8_strlen(frame->search_text,-1)<=3){
-		printf("SEARCHING less than 3 letters\n");
-		return;
-	}
+
 	get_iter_at_start_mark (frame, &start_at);
 
 	gtk_source_search_context_forward_async (search_context,
@@ -698,28 +697,42 @@ install_update_entry_tag_idle (GeditViewFrame *frame)
 	}
 }
 
-static void
-update_search_text (GeditViewFrame *frame)
-{
-	const gchar *entry_text = gtk_entry_get_text (GTK_ENTRY (frame->search_entry));
+static void get_search_text_from_gtk_search_entry(GeditViewFrame *frame){
 
+    const gchar *entry_text = gtk_entry_get_text (GTK_ENTRY (frame->search_entry));
 	g_free (frame->search_text);
 	frame->search_text = g_strdup (entry_text);
+}
+
+static void
+update_search_text_to_source_search(GeditViewFrame *frame)
+{
+	printf("updating search text to source search\n");
+	gchar *search_text_local;
+	if(g_utf8_strlen(frame->search_text,-1) <= GEDIT_SETTINGS_SEARCH_AFTER_CHAR_COUNT){
+	printf("skipping source search less than 3 letters\n Setting empty string\n");
+		search_text_local = NULL;
+
+	} else {
+		search_text_local =  g_strdup(frame->search_text);
+	}
 
 	if (gtk_source_search_settings_get_regex_enabled (frame->search_settings))
 	{
+
 		gtk_source_search_settings_set_search_text (frame->search_settings,
-							    entry_text);
+							    search_text_local);
 	}
 	else
 	{
-		gchar *unescaped_entry_text = gtk_source_utils_unescape_search_text (entry_text);
+		gchar *unescaped_entry_text = gtk_source_utils_unescape_search_text (search_text_local);
 
 		gtk_source_search_settings_set_search_text (frame->search_settings,
 							    unescaped_entry_text);
 
 		g_free (unescaped_entry_text);
 	}
+  if(search_text_local!=NULL){	g_free(search_text_local);}
 }
 
 static void
@@ -957,7 +970,7 @@ search_entry_insert_text (GtkEditable    *editable,
 	const gchar *p;
 	const gchar *end;
 	const gchar *next;
-
+	printf("insert_text");
 	if (frame->search_mode == SEARCH)
 	{
 		return;
@@ -1144,7 +1157,16 @@ search_entry_changed_cb (GtkEntry       *entry,
 
 	if (frame->search_mode == SEARCH)
 	{
-		update_search_text (frame);
+
+
+        get_search_text_from_gtk_search_entry(frame);
+
+		update_search_text_to_source_search (frame);
+
+        if(g_utf8_strlen(frame->search_text,-1) <= GEDIT_SETTINGS_SEARCH_AFTER_CHAR_COUNT){
+			printf("skipping SEARCH less than 3 letters\n");
+			return;
+		}
 		start_search (frame);
 	}
 	else
@@ -1598,3 +1620,4 @@ gedit_view_frame_clear_search (GeditViewFrame *frame)
 
 	gtk_widget_grab_focus (GTK_WIDGET (frame->view));
 }
+
