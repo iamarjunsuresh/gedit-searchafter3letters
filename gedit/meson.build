@@ -106,8 +106,8 @@ libgedit_sources = files(
   'gedit-window.c',
 )
 
-libgedit_c_args = []
-libgedit_link_args = []
+libgedit_c_args = ['-g']
+libgedit_link_args = ['-g']
 
 libgedit_deps = [
   glib_dep,
@@ -289,7 +289,7 @@ gedit_sources = [
   'gedit.c',
 ]
 
-gedit_c_args = []
+gedit_c_args = ['-g']
 
 if host_machine.system() == 'darwin'
   gedit_c_args += [
